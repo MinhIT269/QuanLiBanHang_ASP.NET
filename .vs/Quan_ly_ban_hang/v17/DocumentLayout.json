@@ -1,0 +1,314 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Net_Train\\Quan_ly_ban_hang\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\views\\admin\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:views\\admin\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\views\\home\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:views\\home\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\views\\home\\securepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:views\\home\\securepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\request\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:request\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\request\\productrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:request\\productrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\views\\home\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:views\\home\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\views\\admin\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:views\\admin\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\wwwroot\\vendor\\fontawesome-free\\css\\all.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:wwwroot\\vendor\\fontawesome-free\\css\\all.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T04:45:30.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Login.cshtml",
+              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "Views\\Home\\Login.cshtml",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAlwDMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T03:06:34.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SecurePage.cshtml",
+              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Home\\SecurePage.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\SecurePage.cshtml",
+              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Home\\SecurePage.cshtml",
+              "RelativeToolTip": "Views\\Home\\SecurePage.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T09:14:19.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Request\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "Request\\RegisterRequest.cs",
+              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Request\\RegisterRequest.cs",
+              "RelativeToolTip": "Request\\RegisterRequest.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAgwCQAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T03:48:53.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAswCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T03:48:11.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T03:25:04.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T02:49:06.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Registration.cshtml",
+              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Home\\Registration.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Registration.cshtml",
+              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Home\\Registration.cshtml",
+              "RelativeToolTip": "Views\\Home\\Registration.cshtml",
+              "ViewState": "AQIAABQBAAAAAAAAAAASwL4AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T02:45:20.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T02:07:24.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Home\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\List.cshtml",
+              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Home\\List.cshtml",
+              "RelativeToolTip": "Views\\Home\\List.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T02:07:23.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Admin\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\List.cshtml",
+              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Admin\\List.cshtml",
+              "RelativeToolTip": "Views\\Admin\\List.cshtml",
+              "ViewState": "AQIAAGAFAAAAAAAAAAAQwFgFAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T07:21:21.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "Data\\DataContext.cs",
+              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Data\\DataContext.cs",
+              "RelativeToolTip": "Data\\DataContext.cs",
+              "ViewState": "AQIAAAMBAAAAAAAAAAAlwBQBAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T07:21:01.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAIwAAAAAAAAAAAAAAHMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T07:20:56.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "all.min.css",
+              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\vendor\\fontawesome-free\\css\\all.min.css",
+              "RelativeDocumentMoniker": "wwwroot\\vendor\\fontawesome-free\\css\\all.min.css",
+              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\vendor\\fontawesome-free\\css\\all.min.css",
+              "RelativeToolTip": "wwwroot\\vendor\\fontawesome-free\\css\\all.min.css",
+              "ViewState": "AQIAABAWAAAAAAAAAAAAABIWAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-20T01:54:04.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductRequest.cs",
+              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Request\\ProductRequest.cs",
+              "RelativeDocumentMoniker": "Request\\ProductRequest.cs",
+              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Request\\ProductRequest.cs",
+              "RelativeToolTip": "Request\\ProductRequest.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowBIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T09:09:59.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AQIAALUAAAAAAAAAAAAuwBoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T08:55:38.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "Services\\AccountService.cs",
+              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Services\\AccountService.cs",
+              "RelativeToolTip": "Services\\AccountService.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAhwEoAAACWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T08:56:10.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditProduct.cshtml",
+              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Admin\\EditProduct.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\EditProduct.cshtml",
+              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Admin\\EditProduct.cshtml",
+              "RelativeToolTip": "Views\\Admin\\EditProduct.cshtml",
+              "ViewState": "AQIAAL8EAAAAAAAAAAAMwH4EAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T08:53:24.865Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

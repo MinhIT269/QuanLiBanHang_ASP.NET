@@ -1,0 +1,11 @@
+{
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "bootstrap@5.3.3",
+      "destination": "wwwroot/bootstrap",
+      "files": [ "css/bootstrap-grid.min.css.map", "js/bootstrap.min.js" ]
+    }
+  ],
+  "version": "1.0"
+}

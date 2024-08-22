@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Secure Page</title>
+</head>
+<body>
+    <h1>Welcome, @ViewBag.Name!</h1>
+
+    @if (ViewBag.IsUser)
+    {
+        <p>You are in the User role.</p>
+    }
+    else
+    {
+        <p>You are not in the User role.</p>
+    }
+</body>
+</html>

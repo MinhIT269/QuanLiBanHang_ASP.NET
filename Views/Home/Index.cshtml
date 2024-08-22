@@ -1,0 +1,1496 @@
+﻿ @using Quan_ly_ban_hang.Request
+@{
+	var categories = ViewBag.Categories as List<CategoryRequest>;
+	var products = ViewBag.Products as List<ProductRequest>;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Porto - Bootstrap eCommerce Template</title>
+
+	<meta name="keywords" content="HTML5 Template" />
+	<meta name="description" content="Porto - Bootstrap eCommerce Template">
+	<meta name="author" content="SW-THEMES">
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/x-icon" href="~/images/icons/favicon.png">
+
+	<script>
+		WebFontConfig = {
+			google: {
+				families: ['Open+Sans:300,400,600,700,800', 'Poppins:300,400,500,600,700']
+			}
+		};
+		(function (d) {
+			var wf = d.createElement('script'),
+				s = d.scripts[0];
+			wf.src = 'lib/jquery/dist/webfont.js';
+			wf.async = true;
+			s.parentNode.insertBefore(wf, s);
+		})(document);
+	</script>
+
+	<!-- Plugins CSS File -->
+	<link rel="stylesheet" href="~/css/bootstrap.min.css" />
+
+	<!-- Main CSS File -->
+	<link rel="stylesheet" href="~/css/demo9.min.css" />
+	<link rel="stylesheet" type="text/css" href="~/vendor/fontawesome-free/css/all.min.css" />
+	<link rel="stylesheet" type="text/css" href="~/css/simple-line-icons.min.css" />
+</head>
+
+<body class="boxed">
+	<div class="page-wrapper">
+		<header class="header mb-0" data-y="0">
+			<div class="container">
+				<div class="pre-header w-100">
+					<div class="owl-carousel owl-theme feature-box-carousel" data-toggle="owl" data-owl-options="{
+						'margin': 1,
+						'autoplay': false,
+						'autoplayTimeout': 3000,
+						'nav': false,
+						'dots': false,
+						'loop': true,
+						'responsive' : {
+							'0' : {
+								'items' : 1
+							},
+							'576' : {
+								'items' : 2
+							},
+							'768' : {
+								'items' : 3
+							},
+							'992' : {
+								'items' : 4
+							}
+						}
+					}">
+						<div class="info-box info-box-icon-left">
+							<i class="icon-shipping line-height-1"></i>
+
+							<div class="info-box-content">
+								<h4 class="ls-n-25 line-height-1">FREE SHIPPING &amp; RETURN</h4>
+							</div>
+							<!-- End .info-box-content -->
+						</div>
+						<div class="info-box info-box-icon-left">
+							<i class="icon-money line-height-1"></i>
+
+							<div class="info-box-content">
+								<h4 class="ls-n-25 line-height-1">MONEY BACK GUARANTEE</h4>
+							</div>
+							<!-- End .info-box-content -->
+						</div>
+						<div class="info-box info-box-icon-left">
+							<i class="icon-support line-height-1"></i>
+
+							<div class="info-box-content">
+								<h4 class="ls-n-25 line-height-1">ONLINE SUPPORT 24/7</h4>
+							</div>
+							<!-- End .info-box-content -->
+						</div>
+						<div class="info-box info-box-icon-left">
+							<i class="icon-secure-payment line-height-1"></i>
+
+							<div class="info-box-content">
+								<h4 class="ls-n-25 line-height-1">SECURE PAYMENT</h4>
+							</div>
+							<!-- End .info-box-content -->
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="header-top">
+				<div class="container">
+					<div class="header-left">
+						<div class="header-dropdown mr-auto mr-sm-3 mr-md-0">
+							<a href="#"><i class="flag-us flag"></i>ENG</a>
+							<div class="header-menu">
+								<ul>
+									<li>
+										<a href="#"><i class="flag-us flag mr-2"></i>ENG</a>
+									</li>
+									<li><a href="#"><i class="flag-fr flag mr-2"></i>FRA</a></li>
+								</ul>
+							</div>
+							<!-- End .header-menu -->
+						</div>
+						<div class="header-dropdown">
+							<a href="#" class="pl-0">USD</a>
+							<div class="header-menu">
+								<ul>
+									<li><a href="#">EUR</a></li>
+									<li><a href="#">USD</a></li>
+								</ul>
+							</div>
+							<!-- End .header-menu -->
+						</div>
+					</div>
+					<!-- End .header-left -->
+
+					<div class="header-right">
+						<ul class="top-links mega-menu show-arrow d-none d-lg-inline-block mt-0 mb-0">
+							<li class="item-menu narrow"><a href="dashboard.html">My Account</a></li>
+							<li class="item-menu narrow"><a href="demo9-about.html">About Us</a></li>
+							<li class="item-menu narrow"><a href="blog.html">Blog</a></li>
+							<li class="item-menu narrow"><a href="#">My Wishlist</a></li>
+							<li class="item-menu narrow"><a href="cart.html">Cart</a></li>
+							<li class="item-menu">
+								<a class="login" href="#">Log In</a>
+							</li>
+						</ul>
+						<span class="separator d-none d-lg-block"></span>
+						<div class="social-icons d-flex align-items-center">
+							<a target="_blank" rel="nofollow" class="social-icon social-facebook icon-facebook" href="#" title="Facebook"></a>
+							<a target="_blank" rel="nofollow" class="social-icon social-twitter icon-twitter" href="#" title="Twitter"></a>
+							<a target="_blank" rel="nofollow" class="social-icon social-instagram icon-instagram" href="#" title="Instagram"></a>
+						</div>
+					</div>
+					<!-- End .header-right -->
+				</div>
+				<!-- End .container -->
+			</div>
+			<!-- End .header-top -->
+
+			<div class="container">
+				<div class="header-middle sticky-header d-flex w-100">
+					<div class="container">
+						<div class="header-left">
+							<button class="mobile-menu-toggler text-white mr-2" type="button">
+								<i class="fas fa-bars"></i>
+							</button>
+							<a href="demo9.html" class="logo">
+								<img src="~/images/logo-white.png" alt="Porto Logo" width="110" height="46" />
+							</a>
+						</div>
+						<!-- End .header-left -->
+
+						<div class="header-center flex-1 ml-lg-0 justify-content-end justify-content-lg-start  w-lg-max">
+							<div class="header-icon header-search header-search-inline header-search-category w-lg-max d-none d-sm-block">
+								<a href="#" class="search-toggle text-white" role="button">
+									<i class="icon-search-3 pt-md-1 pr-2 mr-3 d-none d-sm-inline-block"></i>
+								</a>
+								<form action="/Product/Search" method="get">
+									<div class="header-search-wrapper">
+										<input type="search" class="form-control" name="name" id="q" placeholder="Search..." required="">
+										<div class="select-custom">
+											<select id="cat" name="cat">
+												@foreach (var item in categories)
+												{
+													<option value="@item.CategoryId">@item.CategoryName</option>
+												}
+											</select>
+										</div>
+										<!-- End .select-custom -->
+										<button class="btn icon-magnifier" type="submit"></button>
+									</div>
+									<!-- End .header-search-wrapper -->
+								</form>
+							</div>
+							<!-- End .header-search -->
+						</div>
+						<div class="header-right ml-0 ml-lg-auto">
+							<div class="header-contact d-none d-lg-flex align-items-center">
+								<i class="icon-phone-2"></i>
+								<h6>Call us now<a href="tel:#" class="font1">+123 5678 890</a></h6>
+							</div>
+
+							<a href="@Url.Action("Login", "home")" class="header-icon header-icon-user text-white">
+								<i class="icon-user-2 d-inline-flex-center"></i>
+							</a>
+
+							<a href="wishlist.html" class="header-icon d-inline-flex text-white">
+								<i class="icon-wishlist-2 d-inline-flex-center line-height-1"></i>
+							</a>
+
+							<div class="dropdown cart-dropdown">
+								<a href="#" title="Cart" class="dropdown-toggle dropdown-arrow cart-toggle d-flex align-items-center" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
+									<i class="minicart-icon"></i>
+									<span class="cart-count badge-circle">3</span>
+								</a>
+
+								<div class="cart-overlay"></div>
+
+								<div class="dropdown-menu mobile-cart">
+									<a href="#" title="Close (Esc)" class="btn-close">×</a>
+
+									<div class="dropdownmenu-wrapper custom-scrollbar">
+										<div class="dropdown-cart-header">Shopping Cart</div>
+										<!-- End .dropdown-cart-header -->
+
+										<div class="dropdown-cart-products">
+											<div class="product">
+												<div class="product-details">
+													<h4 class="product-title">
+														<a href="demo9-product.html">Ultimate 3D Bluetooth Speaker</a>
+													</h4>
+
+													<span class="cart-product-info">
+														<span class="cart-product-qty">1</span> × $99.00
+													</span>
+												</div>
+												<!-- End .product-details -->
+
+												<figure class="product-image-container">
+													<a href="demo9-product.html" class="product-image">
+														<img src="~/images/products/product-1.jpg" alt="product" width="80" height="80">
+													</a>
+
+													<a href="#" class="btn-remove" title="Remove Product"><span>×</span></a>
+												</figure>
+											</div>
+											<!-- End .product -->
+
+											<div class="product">
+												<div class="product-details">
+													<h4 class="product-title">
+														<a href="demo9-product.html">Brown Women Casual HandBag</a>
+													</h4>
+
+													<span class="cart-product-info">
+														<span class="cart-product-qty">1</span> × $35.00
+													</span>
+												</div>
+												<!-- End .product-details -->
+
+												<figure class="product-image-container">
+													<a href="demo9-product.html" class="product-image">
+														<img src="~/images/products/product-2.jpg" alt="product" width="80" height="80">
+													</a>
+
+													<a href="#" class="btn-remove" title="Remove Product"><span>×</span></a>
+												</figure>
+											</div>
+											<!-- End .product -->
+
+											<div class="product">
+												<div class="product-details">
+													<h4 class="product-title">
+														<a href="demo9-product.html">Circled Ultimate 3D Speaker</a>
+													</h4>
+
+													<span class="cart-product-info">
+														<span class="cart-product-qty">1</span> × $35.00
+													</span>
+												</div>
+												<!-- End .product-details -->
+
+												<figure class="product-image-container">
+													<a href="demo9-product.html" class="product-image">
+														<img src="~/images/products/product-3.jpg" alt="product" width="80" height="80">
+													</a>
+													<a href="#" class="btn-remove" title="Remove Product"><span>×</span></a>
+												</figure>
+											</div>
+											<!-- End .product -->
+										</div>
+										<!-- End .cart-product -->
+
+										<div class="dropdown-cart-total">
+											<span>SUBTOTAL:</span>
+
+											<span class="cart-total-price float-right">$134.00</span>
+										</div>
+										<!-- End .dropdown-cart-total -->
+
+										<div class="dropdown-cart-action">
+											<a href="cart.html" class="btn btn-gray btn-block view-cart">
+												View
+												Cart
+											</a>
+											<a href="checkout.html" class="btn btn-dark btn-block">Checkout</a>
+										</div>
+										<!-- End .dropdown-cart-total -->
+									</div>
+									<!-- End .dropdownmenu-wrapper -->
+								</div>
+								<!-- End .dropdown-menu -->
+							</div>
+							<!-- End .dropdown -->
+						</div>
+						<!-- End .header-right -->
+					</div>
+				</div>
+			</div>
+			<!-- End .container -->
+			<div class="container d-none  d-lg-block">
+				<div class="row">
+					<aside class="sidebar-home col-lg-3 mobile-sidebar toggle-menu-wrap">
+						<div class="side-menu-wrapper text-uppercase d-none d-lg-block">
+							<h2 class="side-menu-title">
+								<a class="d-block btn-dark" href="#">
+									<i class="fas fa-bars"></i>Shop By Category
+								</a>
+							</h2>
+
+							<nav class="side-nav">
+								<ul class="menu menu-vertical sf-arrows">
+									<li class="active"><a href="demo9.html"><i class="sicon-home"></i>Home</a></li>
+									<li>
+										<a href="demo9-shop.html" class="sf-with-ul">
+											<i class="sicon-briefcase"></i>Categories
+										</a>
+										<div class="megamenu megamenu-fixed-width megamenu-3cols">
+											<div class="row">
+												<div class="col-lg-4">
+													<a href="#" class="nolink">TÙY CHỌN 1</a>
+													<ul class="submenu">
+														@{
+															var isFirst = true;
+															var firstHalf = categories.Take(categories.Count / 2).ToList();
+															var secondHalf = categories.Skip(categories.Count / 2).ToList();
+														}
+														@foreach (var item in firstHalf)
+														{
+															if (isFirst)
+															{
+																isFirst = false;
+																continue;
+															}
+															<li><a href="demo9-shop.html" data-id="@item.CategoryId">@item.CategoryName</a></li>
+														}
+													</ul>
+												</div>
+												<div class="col-lg-4">
+													<a href="#" class="nolink">TÙY CHỌN 2</a>
+													<ul class="submenu">
+														@foreach (var item in secondHalf)
+														{
+															<li><a href="demo9-shop.html" data-id="@item.CategoryId">@item.CategoryName</a></li>
+														}
+													</ul>
+												</div>
+												<div class="col-lg-4 p-0">
+													<div class="menu-banner">
+														<figure>
+															<img src="~/images/menu-banner.jpg" width="192" height="313" alt="Menu banner">
+														</figure>
+														<div class="banner-content">
+															<h4>
+																<span class="">UP TO</span><br />
+																<b class="">50%</b>
+																<i>OFF</i>
+															</h4>
+															<a href="demo9-shop.html" class="btn btn-sm btn-dark">
+																SHOP
+																NOW
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- End .megamenu -->
+									</li>
+									<li>
+										<a href="demo9-product.html" class="sf-with-ul">
+											<i class="sicon-present"></i>Products
+										</a>
+										<div class="megamenu megamenu-fixed-width">
+											<div class="row">
+												<div class="col-lg-4">
+													<a href="#" class="nolink">PRODUCT PAGES</a>
+													<ul class="submenu">
+														<li><a href="product.html">SIMPLE PRODUCT</a></li>
+														<li><a href="product-variable.html">VARIABLE PRODUCT</a></li>
+														<li><a href="product.html">SALE PRODUCT</a></li>
+														<li><a href="product.html">FEATURED & ON SALE</a></li>
+														<li><a href="product-custom-tab.html">WITH CUSTOM TAB</a></li>
+														<li>
+															<a href="product-sidebar-left.html">WITH LEFT SIDEBAR</a>
+														</li>
+														<li>
+															<a href="product-sidebar-right.html">WITH RIGHT SIDEBAR</a>
+														</li>
+														<li>
+															<a href="product-addcart-sticky.html">ADD CART STICKY</a>
+														</li>
+													</ul>
+												</div>
+												<!-- End .col-lg-4 -->
+
+												<div class="col-lg-4">
+													<a href="#" class="nolink">PRODUCT LAYOUTS</a>
+													<ul class="submenu">
+														<li>
+															<a href="product-extended-layout.html">EXTENDED LAYOUT</a>
+														</li>
+														<li><a href="product-grid-layout.html">GRID IMAGE</a></li>
+														<li><a href="product-full-width.html">FULL WIDTH LAYOUT</a></li>
+														<li><a href="product-sticky-info.html">STICKY INFO</a></li>
+														<li>
+															<a href="product-sticky-both.html">LEFT & RIGHT STICKY</a>
+														</li>
+														<li>
+															<a href="product-transparent-image.html">
+																TRANSPARENT
+																IMAGE
+															</a>
+														</li>
+														<li>
+															<a href="product-center-vertical.html">CENTER VERTICAL</a>
+														</li>
+														<li><a href="#">BUILD YOUR OWN</a></li>
+													</ul>
+												</div>
+												<!-- End .col-lg-4 -->
+
+												<div class="col-lg-4 p-0">
+													<div class="menu-banner menu-banner-2">
+														<figure>
+															<img src="~/images/menu-banner-1.jpg" alt="Menu banner" class="product-promo">
+														</figure>
+														<i>OFF</i>
+														<div class="banner-content">
+															<h4>
+																<span class="">UP TO</span><br />
+																<b class="">50%</b>
+															</h4>
+														</div>
+														<a href="demo9-shop.html" class="btn btn-sm btn-dark">
+															SHOP
+															NOW
+														</a>
+													</div>
+												</div>
+												<!-- End .col-lg-4 -->
+											</div>
+											<!-- End .row -->
+										</div>
+										<!-- End .megamenu -->
+									</li>
+									<li>
+										<a href="#" class="sf-with-ul"><i class="sicon-docs"></i>Pages</a>
+										<ul>
+											<li><a href="wishlist.html">Wishlist</a></li>
+											<li><a href="cart.html">Shopping Cart</a></li>
+											<li><a href="checkout.html">Checkout</a></li>
+											<li><a href="dashboard.html">Dashboard</a></li>
+											<li><a href="demo9-about.html">About Us</a></li>
+											<li>
+												<a href="#">Blog</a>
+												<ul>
+													<li><a href="blog.html">Blog</a></li>
+													<li><a href="single.html">Blog Post</a></li>
+												</ul>
+											</li>
+											<li><a href="demo9-contact.html">Contact Us</a></li>
+											<li><a href="login.html">Login</a></li>
+											<li><a href="forgot-password.html">Forgot Password</a></li>
+										</ul>
+									</li>
+									<li><a href="blog.html"><i class="sicon-book-open"></i>blog</a></li>
+									<li><a href="demo9-about.html"><i class="sicon-users"></i>About Us</a></li>
+									<li class="item-menu-sale">
+										<a href="#" class="border-top-0">HUGE SALE – 70% OFF</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<!-- End .side-menu-container -->
+					</aside>
+					<!-- End .col-lg-3 -->
+					<div class="col-lg-9">
+						<div class="menu-custom-block text-right">
+							<a href="#">Woman Shoes</a>
+							<a href="#">50% OFF FASHION</a>
+							<a target="_blank" href="https://1.envato.market/rNg2d">Buy Porto!</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- End .header -->
+
+		<main class="main">
+			<div class="container">
+				<div class="row m-b-3">
+					<div class="home-slider-container col-lg-9 offset-lg-3">
+						<div class="home-slider owl-carousel owl-carousel-lazy owl-theme slide-animate" data-owl-options="{
+							'nav': false
+						}">
+							<div class="home-slide banner">
+								<a href="demo9-shop.html">
+									<img class="slide-bg" src="~/images/demoes/demo9/slider/slide-1.jpg" style="background-color: #ccc;" alt="banner" width="835" height="410" />
+								</a>
+								<div class="banner-layer slide-1 text-xl-right banner-layer-middle">
+									<h4 class="text-xl-right slide-title appear-animate" data-animation-delay="100" data-animation-name="fadeInUpShorter">Find the Boundaries. Push Through!</h4>
+									<h2 class="text-xl-right text-uppercase sub-title appear-animate" data-animation-delay="300" data-animation-name="fadeInUpShorter">Shoes Sale</h2>
+									<div class="row">
+										<div class="col-auto col-md-6 appear-animate" data-animation-delay="500" data-animation-name="fadeInRightShorter">
+											<h3 class="sale-label line-height-1 mb-0 d-inline-block text-center">
+												40<small><sup>%</sup><sub>OFF</sub></small>
+											</h3>
+										</div>
+										<div class="col-auto col-md-6 content-right appear-animate" data-animation-delay="700" data-animation-name="fadeInRightShorter">
+											<h4 class="d-inline-block text-left text-uppercase line-height-1 d-inline-block">
+												Starting At
+											</h4>
+											<h5 class="text-left coupon-sale-text">$<b>119</b>99</h5>
+											<div class="mb-0">
+												<a href="demo9-shop.html" class="btn btn-modern btn-md btn-dark">
+													SHOP
+													NOW!
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="home-slide banner">
+								<a href="demo9-shop.html">
+									<img class="slide-bg" src="~/images/demoes/demo9/slider/slide-2.jpg" style="background-color: #444;" alt="banner" width="835" height="410" />
+								</a>
+								<div class="banner-layer slide-2 text-right banner-layer-middle">
+									<div>
+										<h2 class="text-right text-uppercase text-primary ls-n-20 m-b-2 appear-animate" data-animation-delay="100" data-animation-name="fadeInUpShorter">
+											FLASH SALE
+										</h2>
+										<h4 class="text-right m-b-2 appear-animate" data-animation-delay="300" data-animation-name="fadeInUpShorter">
+											TOP BRANDS<br>SUMMER SUNGLASSES
+										</h4>
+										<h3 class="text-right text-uppercase text-light ls-n-20 m-b-4 appear-animate" data-animation-delay="500" data-animation-name="fadeInUpShorter">
+											STARTING<br>AT<sup class="pl-2 ml-1">$</sup>199<sup>99</sup>
+										</h3>
+										<div class="pt-1">
+											<a href="demo9-shop.html" class="btn btn-modern btn-lg btn-light appear-animate" data-animation-delay="700" data-animation-name="fadeInUpShorter">
+												View
+												Sale
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- End .home-slider -->
+					</div>
+					<!-- End .col-lg-9 -->
+				</div>
+				<!-- End .row -->
+
+				<section class="featured-products-section">
+					<h2 class="section-title title-decorate text-center d-flex align-items-center appear-animate" data-animation-delay="100" data-animation-duration="1500">Featured Products</h2>
+
+					<div class="owl-carousel owl-theme nav-image-center" data-owl-options="{
+							'margin': 20,
+							'dots': false,
+							'nav': true,
+							'loop': false,
+							'autoplay': false,
+							'responsive': {
+								'0': {
+									'items': 2
+								},
+								'768': {
+									'items': 3
+								},
+								'1200': {
+									'items': 4
+								}
+							}
+						}">
+						<div class="product-default left-details">
+							<figure>
+								<a href="demo9-product.html">
+									<img src="~/images/demoes/demo9/products/product-1.jpg" alt="product" width="300" height="300">
+									<img src="~/images/demoes/demo9/products/product-1-hover.jpg" alt="product" width="300" height="300">
+								</a>
+								<div class="label-group">
+									<span class="product-label label-hot">HOT</span>
+								</div>
+							</figure>
+							<div class="product-details">
+								<div class="category-list">
+									<a href="demo9-shop.html" class="product-category">clothing</a>,
+									<a href="demo9-shop.html" class="product-category">shoes</a>
+								</div>
+								<h3 class="product-title"> <a href="demo9-product.html">Product Black Bag</a> </h3>
+								<div class="ratings-container">
+									<div class="product-ratings">
+										<span class="ratings" style="width:0%"></span>
+										<!-- End .ratings -->
+										<span class="tooltiptext tooltip-top"></span>
+									</div>
+									<!-- End .product-ratings -->
+								</div>
+								<!-- End .product-container -->
+								<div class="price-box">
+									<span class="product-price">$99.00 – $109.00</span>
+								</div>
+								<!-- End .price-box -->
+								<div class="product-action">
+									<a href="#" class="btn-icon btn-add-cart product-type-simple">
+										<i class="icon-shopping-cart"></i><span>ADD TO CART</span>
+									</a>
+									<a href="wishlist.html" class="btn-icon-wish" title="wishlist">
+										<i class="icon-heart"></i>
+									</a>
+									<a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View">
+										<i class="fas fa-external-link-alt"></i>
+									</a>
+								</div>
+							</div>
+							<!-- End .product-details -->
+						</div>
+
+						<div class="product-default left-details">
+							<figure>
+								<a href="demo9-product.html">
+									<img src="~/images/demoes/demo9/products/product-2.jpg" alt="product" width="300" height="300">
+									<img src="~/images/products/product-27.jpg" alt="product" width="300" height="300">
+								</a>
+								<div class="label-group">
+									<span class="product-label label-hot">HOT</span>
+									<span class="product-label label-sale">-28%</span>
+								</div>
+							</figure>
+							<div class="product-details">
+								<div class="category-list">
+									<a href="demo9-shop.html" class="product-category">shoes</a>,
+									<a href="demo9-shop.html" class="product-category">toys</a>
+								</div>
+								<h3 class="product-title"> <a href="demo9-product.html">Women Winter Shoes</a> </h3>
+								<div class="ratings-container">
+									<div class="product-ratings">
+										<span class="ratings" style="width:0%"></span>
+										<!-- End .ratings -->
+										<span class="tooltiptext tooltip-top"></span>
+									</div>
+									<!-- End .product-ratings -->
+								</div>
+								<!-- End .product-container -->
+								<div class="price-box">
+									<span class="product-price">$209.00 – $249.00</span>
+								</div>
+								<!-- End .price-box -->
+								<div class="product-action">
+									<a href="#" class="btn-icon btn-add-cart product-type-simple">
+										<i class="icon-shopping-cart"></i><span>ADD TO CART</span>
+									</a>
+									<a href="wishlist.html" class="btn-icon-wish" title="wishlist">
+										<i class="icon-heart"></i>
+									</a>
+									<a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View">
+										<i class="fas fa-external-link-alt"></i>
+									</a>
+								</div>
+							</div>
+							<!-- End .product-details -->
+						</div>
+
+						<div class="product-default left-details">
+							<figure>
+								<a href="demo9-product.html">
+									<img src="~/images/demoes/demo9/products/product-3.jpg" alt="product" width="300" height="300">
+								</a>
+								<div class="label-group">
+									<span class="product-label label-hot">HOT</span>
+								</div>
+							</figure>
+							<div class="product-details">
+								<div class="category-list">
+									<a href="demo9-shop.html" class="product-category">CLOTHING</a>,
+									<a href="demo9-shop.html" class="product-category">shoes</a>
+								</div>
+								<h3 class="product-title"> <a href="demo9-product.html">Women Black Bag</a> </h3>
+								<div class="ratings-container">
+									<div class="product-ratings">
+										<span class="ratings" style="width:0%"></span>
+										<!-- End .ratings -->
+										<span class="tooltiptext tooltip-top"></span>
+									</div>
+									<!-- End .product-ratings -->
+								</div>
+								<!-- End .product-container -->
+								<div class="price-box">
+									<span class="product-price">$299.00</span>
+								</div>
+								<!-- End .price-box -->
+								<div class="product-action">
+									<a href="demo9-product.html" class="btn-icon btn-add-cart">
+										<i class="fa fa-arrow-right"></i><span>
+											SELECT
+											OPTIONS
+										</span>
+									</a>
+									<a href="wishlist.html" class="btn-icon-wish" title="wishlist">
+										<i class="icon-heart"></i>
+									</a>
+									<a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View">
+										<i class="fas fa-external-link-alt"></i>
+									</a>
+								</div>
+							</div>
+							<!-- End .product-details -->
+						</div>
+
+						<div class="product-default left-details">
+							<figure>
+								<a href="demo9-product.html">
+									<img src="~/images/demoes/demo9/products/product-10.jpg" alt="product" width="300" height="300">
+									<img src="~/images/demoes/demo9/products/product-10-2.jpg" alt="product" width="300" height="300">
+								</a>
+								<div class="label-group">
+									<span class="product-label label-hot">HOT</span>
+									<span class="product-label label-sale">-15%</span>
+								</div>
+							</figure>
+							<div class="product-details">
+								<div class="category-list">
+									<a href="demo9-shop.html" class="product-category">T-shirts</a>,
+									<a href="demo9-shop.html" class="product-category">Toys</a>
+								</div>
+								<h3 class="product-title"> <a href="demo9-product.html">Women Bag</a> </h3>
+								<div class="ratings-container">
+									<div class="product-ratings">
+										<span class="ratings" style="width:0%"></span>
+										<!-- End .ratings -->
+										<span class="tooltiptext tooltip-top"></span>
+									</div>
+									<!-- End .product-ratings -->
+								</div>
+								<!-- End .product-container -->
+								<div class="price-box">
+									<span class="old-price">$1,999.00</span>
+									<span class="product-price">$1,699.00</span>
+								</div>
+								<!-- End .price-box -->
+								<div class="product-action">
+									<a href="#" class="btn-icon btn-add-cart product-type-simple">
+										<i class="icon-shopping-cart"></i><span>ADD TO CART</span>
+									</a>
+									<a href="wishlist.html" class="btn-icon-wish" title="wishlist">
+										<i class="icon-heart"></i>
+									</a>
+									<a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View">
+										<i class="fas fa-external-link-alt"></i>
+									</a>
+								</div>
+							</div>
+							<!-- End .product-details -->
+						</div>
+					</div>
+				</section>
+
+
+				<div class="home-products-container text-center">
+					<div class="row">
+						<div class="col-md-6 mb-2 appear-animate" data-animation-delay="200" data-animation-name="fadeIn">
+							<div class="home-products bg-gray p-y-5">
+								<h3 class="section-sub-title">BEST SELLERS PRODUCTS</h3>
+
+								<div class="owl-carousel owl-theme nav-image-center nav-thin nav-style-1" data-owl-options="{
+									'dots': false,
+									'nav': true,
+									'loop': false,
+									'autoplay': false,
+									'responsive': {
+										'480': {
+											'items': 1
+										},
+										'768': {
+											'items': 1
+										}
+									}
+								}">
+									<div class="product-default pl-3 pr-3 pl-3 pr-3">
+										<figure>
+											<a href="demo9-product.html">
+												<img src="~/images/demoes/demo9/products/product-1.jpg" alt="product" width="300" height="300" />
+											</a>
+											<div class="label-group">
+												<span class="product-label label-hot">HOT</span>
+											</div>
+										</figure>
+										<div class="product-details">
+											<div class="category-list">
+												<a href="demo9-shop.html" class="product-category">headphone</a>,
+												<a href="demo9-shop.html" class="product-category">toys</a>
+											</div>
+											<h3 class="product-title">
+												<a href="demo9-product.html">Women Bag</a>
+											</h3>
+											<div class="ratings-container">
+												<div class="product-ratings">
+													<span class="ratings" style="width:0%"></span>
+													<!-- End .ratings -->
+													<span class="tooltiptext tooltip-top"></span>
+												</div>
+												<!-- End .product-ratings -->
+											</div>
+											<!-- End .product-container -->
+											<div class="price-box">
+												<span class="product-price">$299.00</span>
+											</div>
+											<!-- End .price-box -->
+										</div>
+										<!-- End .product-details -->
+									</div>
+
+									<div class="product-default pl-3 pr-3">
+										<figure>
+											<a href="demo9-product.html">
+												<img src="~/images/demoes/demo9/products/product-2.jpg" alt="product" width="300" height="300" />
+											</a>
+											<div class="label-group">
+												<span class="product-label label-sale">-10%</span>
+											</div>
+										</figure>
+										<div class="product-details">
+											<div class="category-list">
+												<a href="demo9-shop.html" class="product-category">category</a>
+											</div>
+											<h3 class="product-title">
+												<a href="demo9-product.html">Women Winter Shoes</a>
+											</h3>
+											<div class="ratings-container">
+												<div class="product-ratings">
+													<span class="ratings" style="width:0%"></span>
+													<!-- End .ratings -->
+													<span class="tooltiptext tooltip-top"></span>
+												</div>
+												<!-- End .product-ratings -->
+											</div>
+											<!-- End .product-container -->
+											<div class="price-box">
+												<span class="product-price">$209.00 – $249.00</span>
+											</div>
+											<!-- End .price-box -->
+										</div>
+										<!-- End .product-details -->
+									</div>
+
+									<div class="product-default pl-3 pr-3">
+										<figure>
+											<a href="demo9-product.html">
+												<img src="~/images/demoes/demo9/products/product-7.jpg" alt="product" width="300" height="300" />
+											</a>
+											<div class="label-group">
+												<span class="product-label label-sale">-30%</span>
+											</div>
+										</figure>
+										<div class="product-details">
+											<div class="category-list">
+												<a href="demo9-shop.html" class="product-category">category</a>,
+												<a href="demo9-shop.html" class="product-category">clothing</a>
+											</div>
+											<h3 class="product-title">
+												<a href="demo9-product.html">Women Black Bag</a>
+											</h3>
+											<div class="ratings-container">
+												<div class="product-ratings">
+													<span class="ratings" style="width:0%"></span>
+													<!-- End .ratings -->
+													<span class="tooltiptext tooltip-top"></span>
+												</div>
+												<!-- End .product-ratings -->
+											</div>
+											<!-- End .product-container -->
+											<div class="price-box">
+												<span class="product-price">$299.00</span>
+											</div>
+											<!-- End .price-box -->
+										</div>
+										<!-- End .product-details -->
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- End .col-md-4 -->
+
+						<div class="col-md-6 mb-2 appear-animate" data-animation-delay="500" data-animation-name="fadeIn">
+							<div class="home-products bg-gray p-y-5">
+								<h3 class="section-sub-title">NEW ARRIVAL PRODUCTS</h3>
+
+								<div class="owl-carousel owl-theme nav-image-center nav-thin nav-style-1" data-owl-options="{
+									'dots': false,
+									'nav': true,
+									'responsive': {
+										'480': {
+											'items': 1
+										},
+										'768': {
+											'items': 1
+										}
+									}
+								}">
+									<div class="product-default pl-3 pr-3 pl-3 pr-3">
+										<figure>
+											<a href="demo9-product.html">
+												<img src="~/images/demoes/demo9/products/product-2.jpg" alt="product" width="300" height="300" />
+											</a>
+											<div class="label-group">
+												<span class="product-label label-hot">HOT</span>
+											</div>
+										</figure>
+										<div class="product-details">
+											<div class="category-list">
+												<a href="demo9-shop.html" class="product-category">headphone</a>,
+												<a href="demo9-shop.html" class="product-category">toys</a>
+											</div>
+											<h3 class="product-title">
+												<a href="demo9-product.html">Women Winter Shoes</a>
+											</h3>
+											<div class="ratings-container">
+												<div class="product-ratings">
+													<span class="ratings" style="width:0%"></span>
+													<!-- End .ratings -->
+													<span class="tooltiptext tooltip-top"></span>
+												</div>
+												<!-- End .product-ratings -->
+											</div>
+											<!-- End .product-container -->
+											<div class="price-box">
+												<span class="product-price">$299.00</span>
+											</div>
+											<!-- End .price-box -->
+										</div>
+										<!-- End .product-details -->
+									</div>
+
+									<div class="product-default pl-3 pr-3">
+										<figure>
+											<a href="demo9-product.html">
+												<img src="~/images/demoes/demo9/products/product-9.jpg" alt="product" width="300" height="300" />
+											</a>
+											<div class="label-group">
+												<span class="product-label label-sale">-10%</span>
+											</div>
+										</figure>
+										<div class="product-details">
+											<div class="category-list">
+												<a href="demo9-shop.html" class="product-category">category</a>
+											</div>
+											<h3 class="product-title">
+												<a href="demo9-product.html">Black Women Underwear</a>
+											</h3>
+											<div class="ratings-container">
+												<div class="product-ratings">
+													<span class="ratings" style="width:0%"></span>
+													<!-- End .ratings -->
+													<span class="tooltiptext tooltip-top"></span>
+												</div>
+												<!-- End .product-ratings -->
+											</div>
+											<!-- End .product-container -->
+											<div class="price-box">
+												<span class="product-price">$209.00 – $249.00</span>
+											</div>
+											<!-- End .price-box -->
+										</div>
+										<!-- End .product-details -->
+									</div>
+
+									<div class="product-default pl-3 pr-3">
+										<figure>
+											<a href="demo9-product.html">
+												<img src="~/images/demoes/demo9/products/product-7.jpg" alt="product" width="300" height="300" />
+											</a>
+											<div class="label-group">
+												<span class="product-label label-sale">-30%</span>
+											</div>
+										</figure>
+										<div class="product-details">
+											<div class="category-list">
+												<a href="demo9-shop.html" class="product-category">category</a>,
+												<a href="demo9-shop.html" class="product-category">clothing</a>
+											</div>
+											<h3 class="product-title">
+												<a href="demo9-product.html">Women Black Bag</a>
+											</h3>
+											<div class="ratings-container">
+												<div class="product-ratings">
+													<span class="ratings" style="width:0%"></span>
+													<!-- End .ratings -->
+													<span class="tooltiptext tooltip-top"></span>
+												</div>
+												<!-- End .product-ratings -->
+											</div>
+											<!-- End .product-container -->
+											<div class="price-box">
+												<span class="product-price">$299.00</span>
+											</div>
+											<!-- End .price-box -->
+										</div>
+										<!-- End .product-details -->
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- End .col-md-4 -->
+					</div>
+					<!-- End .row -->
+				</div>
+				<!-- End .row.home-products -->
+
+				<div class="mb-3"></div>
+				<!-- margin -->
+
+				<section class="fashion-products-section pb-2 appear-animate" data-animation-delay="100" data-animation-duration="1500">
+					<h2 class="section-title title-decorate text-center d-flex align-items-center">
+						FASHION SELECTION
+					</h2>
+					<div class="owl-carousel owl-theme nav-image-center" data-owl-options="{
+						'margin': 20,
+						'dots': false,
+						'nav': true,
+						'loop': false,
+						'autoplay': false,
+						'responsive': {
+							'0': {
+								'items': 2
+							},
+							'768': {
+								'items': 3
+							},
+							'1200': {
+								'items': 4
+							}
+						}
+					}">
+						@if (products != null && products.Any())
+						{
+							@foreach (var item in products)
+							{
+								<div class="product-default left-details">
+									<figure>
+										<a href="demo9-product.html">
+											<img src="@item.Image" alt="product" width="300" height="300" style="width: 300px; height: 300px; ">
+											@*  <img src="~/images/demoes/demo9/products/product-1-hover.jpg" alt="product" width="300" height="300" style="width: 300px; height: 300px; "> *@
+										</a>
+										<div class="label-group">
+											<span class="product-label label-hot">HOT</span>
+										</div>
+									</figure>
+									<div class="product-details">
+										<div class="category-list">
+											<a href="demo9-shop.html" class="product-category">@item.CategoryName</a>
+											<a href="demo9-shop.html" class="product-category"></a>
+										</div>
+										<h3 class="product-title"> <a href="demo9-product.html">@item.Name</a> </h3>
+										<div class="ratings-container">
+											<div class="product-ratings">
+												<span class="ratings" style="width:0%"></span>
+												<!-- End .ratings -->
+												<span class="tooltiptext tooltip-top"></span>
+											</div>
+											<!-- End .product-ratings -->
+										</div>
+										<!-- End .product-container -->
+										<div class="price-box">
+											<span class="product-price">@item.Price.ToString("N0", System.Globalization.CultureInfo.GetCultureInfo("vi-VN"))<small>₫</small></span>
+										</div>
+										<!-- End .price-box -->
+										<div class="product-action">
+											<a href="#" class="btn-icon btn-add-cart product-type-simple">
+												<i class="icon-shopping-cart"></i><span>ADD TO CART</span>
+											</a>
+											<a href="wishlist.html" class="btn-icon-wish" title="wishlist">
+												<i class="icon-heart"></i>
+											</a>
+											<a href="ajax/product-quick-view.html" class="btn-quickview" title="Quick View">
+												<i class="fas fa-external-link-alt"></i>
+											</a>
+										</div>
+									</div>
+									<!-- End .product-details -->
+								</div>
+							}
+
+						}
+						else
+						{
+							<p>No products available.</p>
+						}
+					</div>
+				</section>
+
+				<div class="m-b-1"></div>
+				<!-- margin -->
+				<div class="banner newsletter-banner bg-img appear-animate" style="background-image: url(/images/demoes/demo9/banners/banner.jpg)">
+					<div class="banner-content col-md-9 col-xl-6 col-lg-8 col-11 p-l-5 pr-0">
+						<h2 class="text-center ls-n-20 m-b-2 text-uppercase">subscribe to our newsletter</h2>
+						<h5 class="text-center text-body font-weight-normal m-b-3 p-x-4">Get all the latest information on events, sales and offers. Sign up for newsletter:</h5>
+						<div class="widget-newsletter">
+							<form action="#" class="d-flex justify-content-center mb-0">
+								<input type="email" class="form-control mb-1" placeholder="Email address" required" />
+								<button class="btn btn-primary">subscribe</button>
+							</form>
+						</div>
+					</div>
+				</div>
+
+				<div class="brands-section appear-animate p-y-5">
+					<div class="container">
+						<div class="brands-slider images-center owl-carousel owl-theme nav-pos-outside show-nav-hover appear-animate" data-owl-options="{
+								'margin': 0,
+								'loop': true,
+								'autoplay': true
+							}">
+							<img src="~/images/brands/small/brand1.png" width="140" height="60" alt="logo" />
+							<img src="~/images/brands/small/brand2.png" width="140" height="60" alt="logo" />
+							<img src="~/images/brands/small/brand3.png" width="140" height="60" alt="logo" />
+							<img src="~/images/brands/small/brand4.png" width="140" height="60" alt="logo" />
+							<img src="~/images/brands/small/brand5.png" width="140" height="60" alt="logo" />
+							<img src="~/images/brands/small/brand6.png" width="140" height="60" alt="logo" />
+						</div>
+						<!-- End .partners-carousel -->
+					</div>
+					<!-- End .container -->
+				</div>
+			</div>
+			<!-- End .container -->
+		</main>
+		<!-- End .main -->
+
+		<div class="container">
+			<footer class="footer bg-dark">
+				<div class="footer-middle">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-3 col-sm-6">
+								<div class="widget">
+									<h4 class="widget-title">Contact Info</h4>
+									<ul class="contact-info">
+										<li>
+											<span class="contact-info-label">Address:</span>1234 Street Name, City, England
+										</li>
+										<li>
+											<span class="contact-info-label">Phone:</span>Toll Free <a href="tel:">
+												(123)
+												456-7890
+											</a>
+										</li>
+										<li>
+											<span class="contact-info-label">Email:</span> <a href="https://portotheme.com/cdn-cgi/l/email-protection#c1aca0a8ad81a4b9a0acb1ada4efa2aeac"><span class="__cf_email__" data-cfemail="dbb6bab2b79bbea3bab6abb7bef5b8b4b6">[email&#160;protected]</span></a>
+										</li>
+										<li>
+											<span class="contact-info-label">Working Days/Hours:</span> Mon - Sun / 9:00 AM - 8:00 PM
+										</li>
+									</ul>
+									<div class="social-icons">
+										<a href="#" class="social-icon social-facebook icon-facebook" target="_blank" title="Facebook"></a>
+										<a href="#" class="social-icon social-twitter icon-twitter" target="_blank" title="Twitter"></a>
+										<a href="#" class="social-icon social-instagram icon-instagram" target="_blank" title="Instagram"></a>
+									</div>
+									<!-- End .social-icons -->
+								</div>
+								<!-- End .widget -->
+							</div>
+							<!-- End .col-lg-3 -->
+
+							<div class="col-lg-3 col-sm-6">
+								<div class="widget">
+									<h4 class="widget-title">Customer Service</h4>
+
+									<ul class="links">
+										<li><a href="#">Help & FAQs</a></li>
+										<li><a href="#">Order Tracking</a></li>
+										<li><a href="#">Shipping & Delivery</a></li>
+										<li><a href="#">Orders History</a></li>
+										<li><a href="#">Advanced search</a></li>
+										<li><a href="dashboard.html">My Account</a></li>
+										<li><a href="#">Careers</a></li>
+										<li><a href="demo9-about.html">About Us</a></li>
+										<li><a href="demo9-contact.html">Contact Us</a></li>
+										<li><a href="#">Corporate Sales</a></li>
+									</ul>
+								</div>
+								<!-- End .widget -->
+							</div>
+							<!-- End .col-lg-3 -->
+
+							<div class="col-lg-3 col-sm-6">
+								<div class="widget">
+									<h4 class="widget-title">MAIN FEATURES</h4>
+
+									<ul class="links">
+										<li><a href="#">Super Fast HTML Template</a></li>
+										<li><a href="#">Top Rated HTML Template</a></li>
+										<li><a href="#">33 Unique Shop Layouts</a></li>
+										<li><a href="#">Powerful Wordpress Features</a></li>
+										<li><a href="#">Mobile & Retina Optimized</a></li>
+										<li><a href="#">Super Fast HTML Template</a></li>
+										<li><a href="#">Top Rated HTML Template</a></li>
+										<li><a href="#">33 Unique Shop Layouts</a></li>
+										<li><a href="#">Powerful Wordpress Features</a></li>
+										<li><a href="#">Mobile & Retina Optimized</a></li>
+									</ul>
+								</div>
+								<!-- End .widget -->
+							</div>
+							<!-- End .col-lg-3 -->
+
+							<div class="col-lg-3 col-sm-6">
+								<div class="widget">
+									<h4 class="widget-title">Popular Tags</h4>
+
+									<div class="tagcloud">
+										<a href="#">Clothes</a>
+										<a href="#">Fashion</a>
+										<a href="#">Hub</a>
+										<a href="#">Shirt</a>
+										<a href="#">Skirt</a>
+										<a href="#">Sports</a>
+										<a href="#">Sweater</a>
+									</div>
+								</div>
+								<!-- End .widget -->
+							</div>
+							<!-- End .col-lg-3 -->
+						</div>
+						<!-- End .row -->
+					</div>
+					<!-- End .container -->
+				</div>
+				<!-- End .footer-middle -->
+
+				<div class="container px-6">
+					<div class="footer-bottom d-sm-flex align-items-center">
+						<div class="footer-left">
+							<span class="footer-copyright">© Porto eCommerce. 2021. All Rights Reserved</span>
+						</div>
+
+						<div class="footer-right ml-auto mt-1 mt-sm-0">
+							<div class="payment-icons mr-0">
+								<span class="payment-icon visa" style="background-image: url(images/payments/payment-visa.svg)"></span>
+								<span class="payment-icon paypal" style="background-image: url(images/payments/payment-paypal.svg)"></span>
+								<span class="payment-icon stripe" style="background-image: url(images/payments/payment-stripe.png)"></span>
+								<span class="payment-icon verisign" style="background-image:  url(images/payments/payment-verisign.svg)"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End .container -->
+			</footer>
+			<!-- End .footer -->
+		</div>
+		<!-- End .container -->
+	</div>
+	<!-- End .page-wrapper -->
+	@*    <div class="loading-overlay">
+	<div class="bounce-loader">
+	<div class="bounce1"></div>
+	<div class="bounce2"></div>
+	<div class="bounce3"></div>
+	</div>
+	</div> *@
+
+	<div class="mobile-menu-overlay"></div>
+	<!-- End .mobil-menu-overlay -->
+
+	<div class="mobile-menu-container">
+		<div class="mobile-menu-wrapper">
+			<span class="mobile-menu-close"><i class="fa fa-times"></i></span>
+			<nav class="mobile-nav">
+				<ul class="mobile-menu menu-with-icon">
+					<li><a href="demo9.html"><i class="icon-home"></i>Home</a></li>
+					<li>
+						<a href="demo9-shop.html" class="sf-with-ul"><i class="sicon-briefcase"></i>Categories</a>
+						<ul>
+							<li><a href="category.html">Full Width Banner</a></li>
+							<li><a href="category-banner-boxed-slider.html">Boxed Slider Banner</a></li>
+							<li><a href="category-banner-boxed-image.html">Boxed Image Banner</a></li>
+							<li><a href="https://www.portotheme.com/html/porto_ecommerce/category-sidebar-left.html">Left Sidebar</a></li>
+							<li><a href="category-sidebar-right.html">Right Sidebar</a></li>
+							<li><a href="category-off-canvas.html">Off Canvas Filter</a></li>
+							<li><a href="category-horizontal-filter1.html">Horizontal Filter 1</a></li>
+							<li><a href="category-horizontal-filter2.html">Horizontal Filter 2</a></li>
+							<li><a href="#">List Types</a></li>
+							<li>
+								<a href="category-infinite-scroll.html">
+									Ajax Infinite Scroll<span class="tip tip-new">New</span>
+								</a>
+							</li>
+							<li><a href="category.html">3 Columns Products</a></li>
+							<li><a href="category-4col.html">4 Columns Products</a></li>
+							<li><a href="category-5col.html">5 Columns Products</a></li>
+							<li><a href="category-6col.html">6 Columns Products</a></li>
+							<li><a href="category-7col.html">7 Columns Products</a></li>
+							<li><a href="category-8col.html">8 Columns Products</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="demo9-product.html" class="sf-with-ul"><i class="sicon-present"></i>Products</a>
+						<ul>
+							<li>
+								<a href="#" class="nolink">PRODUCT PAGES</a>
+								<ul>
+									<li><a href="product.html">SIMPLE PRODUCT</a></li>
+									<li><a href="product-variable.html">VARIABLE PRODUCT</a></li>
+									<li><a href="product.html">SALE PRODUCT</a></li>
+									<li><a href="product.html">FEATURED & ON SALE</a></li>
+									<li><a href="product-sticky-info.html">WIDTH CUSTOM TAB</a></li>
+									<li><a href="product-sidebar-left.html">WITH LEFT SIDEBAR</a></li>
+									<li><a href="product-sidebar-right.html">WITH RIGHT SIDEBAR</a></li>
+									<li><a href="product-addcart-sticky.html">ADD CART STICKY</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#" class="nolink">PRODUCT LAYOUTS</a>
+								<ul>
+									<li><a href="product-extended-layout.html">EXTENDED LAYOUT</a></li>
+									<li><a href="product-grid-layout.html">GRID IMAGE</a></li>
+									<li><a href="product-full-width.html">FULL WIDTH LAYOUT</a></li>
+									<li><a href="product-sticky-info.html">STICKY INFO</a></li>
+									<li><a href="product-sticky-both.html">LEFT & RIGHT STICKY</a></li>
+									<li><a href="product-transparent-image.html">TRANSPARENT IMAGE</a></li>
+									<li><a href="product-center-vertical.html">CENTER VERTICAL</a></li>
+									<li><a href="#">BUILD YOUR OWN</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#" class="sf-with-ul"><i class="sicon-docs"></i>Pages</a>
+						<ul>
+							<li>
+								<a href="wishlist.html">Wishlist</a>
+							</li>
+							<li>
+								<a href="cart.html">Shopping Cart</a>
+							</li>
+							<li>
+								<a href="checkout.html">Checkout</a>
+							</li>
+							<li>
+								<a href="dashboard.html">Dashboard</a>
+							</li>
+							<li>
+								<a href="login.html">Login</a>
+							</li>
+							<li>
+								<a href="forgot-password.html">Forgot Password</a>
+							</li>
+						</ul>
+					</li>
+					<li><a href="blog.html"><i class="sicon-book-open"></i>Blog</a></li>
+					<li><a href="demo9-about.html"><i class="sicon-users"></i>About Us</a></li>
+					<li><a href="demo9-about.html"><i class="sicon-users"></i>HUGE SALE – 70% OFF</a></li>
+				</ul>
+
+				<ul class="mobile-menu menu-with-icon mt-2 mb-2">
+					<li class="border-0">
+						<a href="#" target="_blank">Woman Shoes</a>
+					</li>
+					<li class="border-0">
+						<a href="#" target="_blank">50% OFF FASHION</a>
+					</li>
+					<li class="border-0">
+						<a href="#" target="_blank">Buy Porto!</a>
+					</li>
+				</ul>
+
+				<ul class="mobile-menu">
+					<li><a href="dashboard.html">My Account</a></li>
+					<li><a href="demo9-about.html">About Us</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="wishlist.html">My Wishlist</a></li>
+					<li><a href="cart.html">Cart</a></li>
+					<li><a href="login.html" class="login-link">Log In</a></li>
+				</ul>
+			</nav>
+			<!-- End .mobile-nav -->
+
+			<form class="search-wrapper mb-2" action="#">
+				<input type="text" class="form-control mb-0" placeholder="Search..." required />
+				<button class="btn icon-search text-white bg-transparent p-0" type="submit"></button>
+			</form>
+
+			<div class="social-icons">
+				<a href="#" class="social-icon social-facebook icon-facebook" target="_blank">
+				</a>
+				<a href="#" class="social-icon social-twitter icon-twitter" target="_blank">
+				</a>
+				<a href="#" class="social-icon social-instagram icon-instagram" target="_blank">
+				</a>
+			</div>
+		</div>
+		<!-- End .mobile-menu-wrapper -->
+	</div>
+	<!-- End .mobile-menu-container -->
+
+	<div class="sticky-navbar">
+		<div class="sticky-info">
+			<a href="demo9.html">
+				<i class="icon-home"></i>Home
+			</a>
+		</div>
+		<div class="sticky-info">
+			<a href="demo9-shop.html" class="">
+				<i class="icon-bars"></i>Categories
+			</a>
+		</div>
+		<div class="sticky-info">
+			<a href="wishlist.html" class="">
+				<i class="icon-wishlist-2"></i>Wishlist
+			</a>
+		</div>
+		<div class="sticky-info">
+			<a href="login.html" class="">
+				<i class="icon-user-2"></i>Account
+			</a>
+		</div>
+		<div class="sticky-info">
+			<a href="cart.html" class="">
+				<i class="icon-shopping-cart position-relative">
+					<span class="cart-count badge-circle">3</span>
+				</i>Cart
+			</a>
+		</div>
+	</div>
+
+	<div class="newsletter-popup mfp-hide bg-img" id="newsletter-popup-form" style="background: #f1f1f1 no-repeat center/cover url(images/newsletter_popup_bg.jpg)">
+		<div class="newsletter-popup-content">
+			<img src="~/images/logo-black.png" alt="Logo" class="logo-newsletter" width="111" height="44">
+			<h2>Subscribe to newsletter</h2>
+
+			<p>
+				Subscribe to the Porto mailing list to receive updates on new arrivals, special offers and our promotions.
+			</p>
+
+			<form action="#">
+				<div class="input-group">
+					<input type="email" class="form-control" id="newsletter-email" name="newsletter-email" placeholder="Your email address" required />
+					<input type="submit" class="btn btn-primary" value="Submit" />
+				</div>
+			</form>
+			<div class="newsletter-subscribe">
+				<div class="custom-control custom-checkbox">
+					<input type="checkbox" class="custom-control-input" value="0" id="show-again" />
+					<label for="show-again" class="custom-control-label">
+						Don't show this popup again
+					</label>
+				</div>
+			</div>
+		</div>
+		<!-- End .newsletter-popup-content -->
+
+		<button title="Close (Esc)" type="button" class="mfp-close">
+			×
+		</button>
+	</div>
+	<!-- End .newsletter-popup -->
+
+	<a id="scroll-top" href="#top" title="Top" role="button"><i class="icon-angle-up"></i></a>
+
+	<!-- Plugins JS File -->
+	<script data-cfasync="false" src="~/lib/jquery/dist/email-decode.min.js"></script>
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/lib/jquery/dist/bootstrap.bundle.min.js"></script>
+	<script src="~/lib/jquery/dist/plugins.min.js"></script>
+	<script src="~/lib/jquery/dist/jquery.appear.min.js"></script>
+	<!-- Main JS File -->
+	<script src="~/lib/jquery/dist/main.min.js"></script>
+</body>
+</html>

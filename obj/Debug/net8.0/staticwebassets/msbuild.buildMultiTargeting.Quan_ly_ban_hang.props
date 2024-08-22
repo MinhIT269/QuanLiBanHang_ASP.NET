@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Quan_ly_ban_hang.props" />
+</Project>

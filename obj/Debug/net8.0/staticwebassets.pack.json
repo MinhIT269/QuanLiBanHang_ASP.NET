@@ -1,0 +1,1469 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Quan_ly_ban_hang.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Quan_ly_ban_hang.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\css\\app.min.css",
+      "PackagePath": "staticwebassets\\css\\app.min.css"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\css\\demo9.min.css",
+      "PackagePath": "staticwebassets\\css\\demo9.min.css"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\css\\icons.min.css",
+      "PackagePath": "staticwebassets\\css\\icons.min.css"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\css\\simple-line-icons.min.css",
+      "PackagePath": "staticwebassets\\css\\simple-line-icons.min.css"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\css\\style.min.css"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\css\\vendor.min.css",
+      "PackagePath": "staticwebassets\\css\\vendor.min.css"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\fonts\\boxicons.eot",
+      "PackagePath": "staticwebassets\\fonts\\boxicons.eot"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\fonts\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\boxicons.ttf"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\fonts\\boxicons.woff",
+      "PackagePath": "staticwebassets\\fonts\\boxicons.woff"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\fonts\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\fonts\\boxicons.woff2"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\fonts\\boxiconsd41d.svg",
+      "PackagePath": "staticwebassets\\fonts\\boxiconsd41d.svg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\fonts\\porto6e1d.eot",
+      "PackagePath": "staticwebassets\\fonts\\porto6e1d.eot"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\fonts\\porto6e1d.svg",
+      "PackagePath": "staticwebassets\\fonts\\porto6e1d.svg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\fonts\\porto6e1d.ttf",
+      "PackagePath": "staticwebassets\\fonts\\porto6e1d.ttf"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\fonts\\porto6e1d.woff",
+      "PackagePath": "staticwebassets\\fonts\\porto6e1d.woff"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\fonts\\porto6e1d.woff2",
+      "PackagePath": "staticwebassets\\fonts\\porto6e1d.woff2"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\fonts\\tabler-icons3026.ttf",
+      "PackagePath": "staticwebassets\\fonts\\tabler-icons3026.ttf"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\fonts\\tabler-icons3026.woff2",
+      "PackagePath": "staticwebassets\\fonts\\tabler-icons3026.woff2"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\fonts\\tabler-iconsd41d.woff",
+      "PackagePath": "staticwebassets\\fonts\\tabler-iconsd41d.woff"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\404-error.png",
+      "PackagePath": "staticwebassets\\images\\404-error.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\banners\\banner-fashion-1.jpg",
+      "PackagePath": "staticwebassets\\images\\banners\\banner-fashion-1.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\banners\\banner-fashion-2.jpg",
+      "PackagePath": "staticwebassets\\images\\banners\\banner-fashion-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\banners\\banner-sidebar-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\banners\\banner-sidebar-bg.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\banners\\banner-sidebar.jpg",
+      "PackagePath": "staticwebassets\\images\\banners\\banner-sidebar.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\banners\\banner-top.jpg",
+      "PackagePath": "staticwebassets\\images\\banners\\banner-top.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\brand1.png",
+      "PackagePath": "staticwebassets\\images\\brand1.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\brand2.png",
+      "PackagePath": "staticwebassets\\images\\brand2.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\brand3.png",
+      "PackagePath": "staticwebassets\\images\\brand3.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\brand6.png",
+      "PackagePath": "staticwebassets\\images\\brand6.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\brands\\brand1.png",
+      "PackagePath": "staticwebassets\\images\\brands\\brand1.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\brands\\brand2.png",
+      "PackagePath": "staticwebassets\\images\\brands\\brand2.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\brands\\brand3.png",
+      "PackagePath": "staticwebassets\\images\\brands\\brand3.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\brands\\brand4.png",
+      "PackagePath": "staticwebassets\\images\\brands\\brand4.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\brands\\brand5.png",
+      "PackagePath": "staticwebassets\\images\\brands\\brand5.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\brands\\brand6.png",
+      "PackagePath": "staticwebassets\\images\\brands\\brand6.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\brands\\small\\brand1.png",
+      "PackagePath": "staticwebassets\\images\\brands\\small\\brand1.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\brands\\small\\brand2.png",
+      "PackagePath": "staticwebassets\\images\\brands\\small\\brand2.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\brands\\small\\brand3.png",
+      "PackagePath": "staticwebassets\\images\\brands\\small\\brand3.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\brands\\small\\brand4.png",
+      "PackagePath": "staticwebassets\\images\\brands\\small\\brand4.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\brands\\small\\brand5.png",
+      "PackagePath": "staticwebassets\\images\\brands\\small\\brand5.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\brands\\small\\brand6.png",
+      "PackagePath": "staticwebassets\\images\\brands\\small\\brand6.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\check-2.png",
+      "PackagePath": "staticwebassets\\images\\check-2.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\coming-soon.png",
+      "PackagePath": "staticwebassets\\images\\coming-soon.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\demoes\\demo9\\banners\\banner.jpg",
+      "PackagePath": "staticwebassets\\images\\demoes\\demo9\\banners\\banner.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\demoes\\demo9\\banners\\category-banner.jpg",
+      "PackagePath": "staticwebassets\\images\\demoes\\demo9\\banners\\category-banner.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\demoes\\demo9\\products\\product-1-2.jpg",
+      "PackagePath": "staticwebassets\\images\\demoes\\demo9\\products\\product-1-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\demoes\\demo9\\products\\product-1-hover.jpg",
+      "PackagePath": "staticwebassets\\images\\demoes\\demo9\\products\\product-1-hover.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\demoes\\demo9\\products\\product-1.jpg",
+      "PackagePath": "staticwebassets\\images\\demoes\\demo9\\products\\product-1.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\demoes\\demo9\\products\\product-10-2.jpg",
+      "PackagePath": "staticwebassets\\images\\demoes\\demo9\\products\\product-10-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\demoes\\demo9\\products\\product-10.jpg",
+      "PackagePath": "staticwebassets\\images\\demoes\\demo9\\products\\product-10.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\demoes\\demo9\\products\\product-11-2.jpg",
+      "PackagePath": "staticwebassets\\images\\demoes\\demo9\\products\\product-11-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\demoes\\demo9\\products\\product-11.jpg",
+      "PackagePath": "staticwebassets\\images\\demoes\\demo9\\products\\product-11.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\demoes\\demo9\\products\\product-12-2.jpg",
+      "PackagePath": "staticwebassets\\images\\demoes\\demo9\\products\\product-12-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\demoes\\demo9\\products\\product-12.jpg",
+      "PackagePath": "staticwebassets\\images\\demoes\\demo9\\products\\product-12.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\demoes\\demo9\\products\\product-14.jpg",
+      "PackagePath": "staticwebassets\\images\\demoes\\demo9\\products\\product-14.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\demoes\\demo9\\products\\product-2.jpg",
+      "PackagePath": "staticwebassets\\images\\demoes\\demo9\\products\\product-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\demoes\\demo9\\products\\product-3-2.jpg",
+      "PackagePath": "staticwebassets\\images\\demoes\\demo9\\products\\product-3-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\demoes\\demo9\\products\\product-3.jpg",
+      "PackagePath": "staticwebassets\\images\\demoes\\demo9\\products\\product-3.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\demoes\\demo9\\products\\product-5-2.jpg",
+      "PackagePath": "staticwebassets\\images\\demoes\\demo9\\products\\product-5-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\demoes\\demo9\\products\\product-6-2.jpg",
+      "PackagePath": "staticwebassets\\images\\demoes\\demo9\\products\\product-6-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\demoes\\demo9\\products\\product-7.jpg",
+      "PackagePath": "staticwebassets\\images\\demoes\\demo9\\products\\product-7.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\demoes\\demo9\\products\\product-9.jpg",
+      "PackagePath": "staticwebassets\\images\\demoes\\demo9\\products\\product-9.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\demoes\\demo9\\slider\\slide-1-badge.png",
+      "PackagePath": "staticwebassets\\images\\demoes\\demo9\\slider\\slide-1-badge.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\demoes\\demo9\\slider\\slide-1.jpg",
+      "PackagePath": "staticwebassets\\images\\demoes\\demo9\\slider\\slide-1.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\demoes\\demo9\\slider\\slide-2.jpg",
+      "PackagePath": "staticwebassets\\images\\demoes\\demo9\\slider\\slide-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\double.png",
+      "PackagePath": "staticwebassets\\images\\double.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\flags.png",
+      "PackagePath": "staticwebassets\\images\\flags.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\icons\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\icons\\favicon.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\lazy.png",
+      "PackagePath": "staticwebassets\\images\\lazy.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\logo-black.png",
+      "PackagePath": "staticwebassets\\images\\logo-black.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\logo-dark.png",
+      "PackagePath": "staticwebassets\\images\\logo-dark.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\logo-footer.png",
+      "PackagePath": "staticwebassets\\images\\logo-footer.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\logo-light.png",
+      "PackagePath": "staticwebassets\\images\\logo-light.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\logo-sm.png",
+      "PackagePath": "staticwebassets\\images\\logo-sm.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\logo-white.png",
+      "PackagePath": "staticwebassets\\images\\logo-white.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\maintenance-2.png",
+      "PackagePath": "staticwebassets\\images\\maintenance-2.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\menu-banner-1.jpg",
+      "PackagePath": "staticwebassets\\images\\menu-banner-1.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\menu-banner.jpg",
+      "PackagePath": "staticwebassets\\images\\menu-banner.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\newsletter_popup_bg.jpg",
+      "PackagePath": "staticwebassets\\images\\newsletter_popup_bg.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\page-header-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\page-header-bg.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\party.png",
+      "PackagePath": "staticwebassets\\images\\party.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\payments\\payment-paypal.svg",
+      "PackagePath": "staticwebassets\\images\\payments\\payment-paypal.svg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\payments\\payment-stripe.png",
+      "PackagePath": "staticwebassets\\images\\payments\\payment-stripe.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\payments\\payment-verisign.svg",
+      "PackagePath": "staticwebassets\\images\\payments\\payment-verisign.svg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\payments\\payment-visa.svg",
+      "PackagePath": "staticwebassets\\images\\payments\\payment-visa.svg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\phone.png",
+      "PackagePath": "staticwebassets\\images\\phone.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\product\\p-1.png",
+      "PackagePath": "staticwebassets\\images\\product\\p-1.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\product\\p-10.png",
+      "PackagePath": "staticwebassets\\images\\product\\p-10.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\product\\p-11.png",
+      "PackagePath": "staticwebassets\\images\\product\\p-11.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\product\\p-12.png",
+      "PackagePath": "staticwebassets\\images\\product\\p-12.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\product\\p-13.png",
+      "PackagePath": "staticwebassets\\images\\product\\p-13.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\product\\p-14.png",
+      "PackagePath": "staticwebassets\\images\\product\\p-14.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\product\\p-2.png",
+      "PackagePath": "staticwebassets\\images\\product\\p-2.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\product\\p-3.png",
+      "PackagePath": "staticwebassets\\images\\product\\p-3.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\product\\p-4.png",
+      "PackagePath": "staticwebassets\\images\\product\\p-4.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\product\\p-5.png",
+      "PackagePath": "staticwebassets\\images\\product\\p-5.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\product\\p-6.png",
+      "PackagePath": "staticwebassets\\images\\product\\p-6.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\product\\p-7.png",
+      "PackagePath": "staticwebassets\\images\\product\\p-7.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\product\\p-8.png",
+      "PackagePath": "staticwebassets\\images\\product\\p-8.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\product\\p-9.png",
+      "PackagePath": "staticwebassets\\images\\product\\p-9.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-1(1).png",
+      "PackagePath": "staticwebassets\\images\\products\\product-1(1).png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-1(2).jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-1(2).jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-1-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-1-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-1.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-10-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-10-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-10.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-10.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-11-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-11-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-11.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-11.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-12-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-12-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-12.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-12.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-13.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-13.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-14.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-14.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-15.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-15.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-16.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-16.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-17.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-17.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-18.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-18.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-19.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-19.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-2-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-2-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-20.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-20.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-21.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-21.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-22.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-22.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-23.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-23.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-24.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-24.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-25.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-25.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-26.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-26.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-27.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-27.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-29.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-29.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-3-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-3-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-3.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-30.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-30.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-4-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-4-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-4.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-4.png",
+      "PackagePath": "staticwebassets\\images\\products\\product-4.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-40.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-40.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-41.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-41.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-42.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-42.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-43.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-43.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-44.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-44.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-45.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-45.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-46.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-46.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-47.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-47.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-48.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-48.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-5-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-5-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-5.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-5.png",
+      "PackagePath": "staticwebassets\\images\\products\\product-5.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-50.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-50.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-51.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-51.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-52.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-52.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-53.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-53.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-54.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-54.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-55.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-55.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-56.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-56.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-57.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-57.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-58.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-58.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-59.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-59.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-6-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-6-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-6.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-6.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-6.png",
+      "PackagePath": "staticwebassets\\images\\products\\product-6.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-60.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-60.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-61.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-61.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-62.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-62.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-63.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-63.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-64.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-64.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-65.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-65.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-66.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-66.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-67.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-67.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-68.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-68.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-69.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-69.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-7-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-7-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-7.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-7.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-70.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-70.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-8-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-8-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-8.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-8.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-9-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-9-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-9.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product-9.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product31.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product31.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product32.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product32.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product33.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product33.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product34.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product34.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product35.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product35.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product36.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product36.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product37.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product37.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product38.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product38.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product39.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\product39.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\qr-code.png",
+      "PackagePath": "staticwebassets\\images\\qr-code.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\small\\img-1.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-1.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\small\\img-10.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-10.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\small\\img-2.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\small\\img-3.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-3.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\small\\img-4.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-4.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\small\\img-5.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-5.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\small\\img-6.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-6.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\small\\img-7.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-7.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\small\\img-8.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-8.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\small\\img-9.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-9.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\user-profile.png",
+      "PackagePath": "staticwebassets\\images\\user-profile.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\users\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-1.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\users\\avatar-10.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-10.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\users\\avatar-11.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-11.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\users\\avatar-12.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-12.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\users\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\users\\avatar-3.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-3.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\users\\avatar-4.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-4.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\users\\avatar-5.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-5.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\users\\avatar-6.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-6.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\users\\avatar-7.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-7.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\users\\avatar-8.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-8.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\users\\avatar-9.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-9.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\users\\chat.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\chat.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\users\\dummy-avatar.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\dummy-avatar.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\app.js",
+      "PackagePath": "staticwebassets\\js\\app.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\apexchart-area.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-area.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\apexchart-bar.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-bar.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\apexchart-boxplot.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-boxplot.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\apexchart-bubble.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-bubble.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\apexchart-candlestick.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-candlestick.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\apexchart-column.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-column.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\apexchart-heatmap.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-heatmap.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\apexchart-line.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-line.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\apexchart-mixed.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-mixed.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\apexchart-pie.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-pie.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\apexchart-polar-area.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-polar-area.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\apexchart-radar.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-radar.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\apexchart-radialbar.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-radialbar.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\apexchart-scatter.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-scatter.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\apexchart-timeline.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-timeline.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\apexchart-treemap.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-treemap.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\extended-rating.js",
+      "PackagePath": "staticwebassets\\js\\components\\extended-rating.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\extended-sweetalert.js",
+      "PackagePath": "staticwebassets\\js\\components\\extended-sweetalert.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\form-clipboard.js",
+      "PackagePath": "staticwebassets\\js\\components\\form-clipboard.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\form-flatepicker.js",
+      "PackagePath": "staticwebassets\\js\\components\\form-flatepicker.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\form-quilljs.js",
+      "PackagePath": "staticwebassets\\js\\components\\form-quilljs.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\form-slider.js",
+      "PackagePath": "staticwebassets\\js\\components\\form-slider.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\maps-canada.js",
+      "PackagePath": "staticwebassets\\js\\components\\maps-canada.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\maps-google.js",
+      "PackagePath": "staticwebassets\\js\\components\\maps-google.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\maps-iraq.js",
+      "PackagePath": "staticwebassets\\js\\components\\maps-iraq.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\maps-russia.js",
+      "PackagePath": "staticwebassets\\js\\components\\maps-russia.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\maps-spain.js",
+      "PackagePath": "staticwebassets\\js\\components\\maps-spain.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\maps-us-aea-en.js",
+      "PackagePath": "staticwebassets\\js\\components\\maps-us-aea-en.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\maps-us-lcc-en.js",
+      "PackagePath": "staticwebassets\\js\\components\\maps-us-lcc-en.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\maps-us-mill-en.js",
+      "PackagePath": "staticwebassets\\js\\components\\maps-us-mill-en.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\maps-vector.js",
+      "PackagePath": "staticwebassets\\js\\components\\maps-vector.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\table-gridjs.js",
+      "PackagePath": "staticwebassets\\js\\components\\table-gridjs.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\config.js",
+      "PackagePath": "staticwebassets\\js\\config.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\pages\\app-calendar.js",
+      "PackagePath": "staticwebassets\\js\\pages\\app-calendar.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\pages\\app-chat.js",
+      "PackagePath": "staticwebassets\\js\\pages\\app-chat.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\pages\\app-email.js",
+      "PackagePath": "staticwebassets\\js\\pages\\app-email.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\pages\\coming-soon.js",
+      "PackagePath": "staticwebassets\\js\\pages\\coming-soon.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\pages\\coupons-add.js",
+      "PackagePath": "staticwebassets\\js\\pages\\coupons-add.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\pages\\customer-details.js",
+      "PackagePath": "staticwebassets\\js\\pages\\customer-details.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\pages\\dashboard.js",
+      "PackagePath": "staticwebassets\\js\\pages\\dashboard.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\pages\\invoice-add.js",
+      "PackagePath": "staticwebassets\\js\\pages\\invoice-add.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\pages\\order-cart.js",
+      "PackagePath": "staticwebassets\\js\\pages\\order-cart.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\pages\\product-details.js",
+      "PackagePath": "staticwebassets\\js\\pages\\product-details.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\pages\\product-grid.js",
+      "PackagePath": "staticwebassets\\js\\pages\\product-grid.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\pages\\seller-add.js",
+      "PackagePath": "staticwebassets\\js\\pages\\seller-add.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\pages\\seller-detail.js",
+      "PackagePath": "staticwebassets\\js\\pages\\seller-detail.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\pages\\widgets.js",
+      "PackagePath": "staticwebassets\\js\\pages\\widgets.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\vendor.js",
+      "PackagePath": "staticwebassets\\js\\vendor.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\jquery\\dist\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\jquery\\dist\\email-decode.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\email-decode.min.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\jquery\\dist\\jquery.appear.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.appear.min.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\jquery\\dist\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\jquery\\dist\\jquery.plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.plugin.min.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\jquery\\dist\\main.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\main.min.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\jquery\\dist\\map.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\map.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\jquery\\dist\\nouislider.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\nouislider.min.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\jquery\\dist\\plugins.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\plugins.min.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\jquery\\dist\\webfont.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\webfont.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\vendor\\fontawesome-free\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\css\\all.min.css"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\vendor\\fontawesome-free\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\vendor\\fontawesome-free\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\vendor\\fontawesome-free\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\vendor\\fontawesome-free\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\vendor\\fontawesome-free\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\vendor\\fontawesome-free\\webfonts\\fa-brands-400d41d.eot",
+      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\webfonts\\fa-brands-400d41d.eot"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\vendor\\fontawesome-free\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\vendor\\fontawesome-free\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\vendor\\fontawesome-free\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\vendor\\fontawesome-free\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\vendor\\fontawesome-free\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\vendor\\fontawesome-free\\webfonts\\fa-regular-400d41d.eot",
+      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\webfonts\\fa-regular-400d41d.eot"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\vendor\\fontawesome-free\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\vendor\\fontawesome-free\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\vendor\\fontawesome-free\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\vendor\\fontawesome-free\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\vendor\\fontawesome-free\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\vendor\\fontawesome-free\\webfonts\\fa-solid-900d41d.eot",
+      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\webfonts\\fa-solid-900d41d.eot"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\vendor\\fonts\\Simple-Line-Iconsec97.eot",
+      "PackagePath": "staticwebassets\\vendor\\fonts\\Simple-Line-Iconsec97.eot"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\vendor\\fonts\\Simple-Line-Iconsec97.svg",
+      "PackagePath": "staticwebassets\\vendor\\fonts\\Simple-Line-Iconsec97.svg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\vendor\\fonts\\Simple-Line-Iconsec97.ttf",
+      "PackagePath": "staticwebassets\\vendor\\fonts\\Simple-Line-Iconsec97.ttf"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\vendor\\fonts\\Simple-Line-Iconsec97.woff",
+      "PackagePath": "staticwebassets\\vendor\\fonts\\Simple-Line-Iconsec97.woff"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\vendor\\jsvectormap\\js\\jsvectormap.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jsvectormap\\js\\jsvectormap.min.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\vendor\\jsvectormap\\maps\\world-merc.js",
+      "PackagePath": "staticwebassets\\vendor\\jsvectormap\\maps\\world-merc.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\vendor\\jsvectormap\\maps\\world.js",
+      "PackagePath": "staticwebassets\\vendor\\jsvectormap\\maps\\world.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Quan_ly_ban_hang.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Quan_ly_ban_hang.props",
+      "PackagePath": "build\\Quan_ly_ban_hang.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Quan_ly_ban_hang.props",
+      "PackagePath": "buildMultiTargeting\\Quan_ly_ban_hang.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Quan_ly_ban_hang.props",
+      "PackagePath": "buildTransitive\\Quan_ly_ban_hang.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
