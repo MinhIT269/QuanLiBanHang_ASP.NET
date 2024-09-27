@@ -386,8 +386,8 @@ var options = {
     opacity: 1,
     image: {
       src: [
-        "assets/images/brands/dribbble.svg",
-        "assets/images/brands/github.svg",
+        "~/images/brands/dribbble.svg",
+        "~/images/brands/github.svg",
       ],
       width: 40,
       height: 40,

@@ -21,11 +21,17 @@ namespace Quan_ly_ban_hang.Models
 		public DbSet<Payment> Payments { get; set; }
 		public DbSet<Discount> Discounts { get; set; }
 		public DbSet<Brand> Brands { get; set; }
-		protected override void OnModelCreating(ModelBuilder modelBuilder)
+        public DbSet<ProductImage> ProductImages { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
 			base.OnModelCreating(modelBuilder);
-			// Cấu hình mối quan hệ nhiều-nhiều giữa Product và Discount
-			modelBuilder.Entity<Product>()
+            // Cấu hình mối quan hệ nhiều-nhiều giữa Product và Discount
+            modelBuilder.Entity<ProductImage>()
+                 .HasOne(pi => pi.Product)
+                 .WithMany(p => p.ProductImages)
+                 .HasForeignKey(pi => pi.ProductId);
+
+            modelBuilder.Entity<Product>()
 		        .HasOne(p => p.Brand)
 		        .WithMany(b => b.Products)
 		        .HasForeignKey(p => p.BrandId);

@@ -1,4 +1,4 @@
-﻿ @using Quan_ly_ban_hang.Request
+﻿﻿ @using Quan_ly_ban_hang.Request
 @{
     var categories = ViewBag.Categories as List<CategoryRequest>;
     var brands = ViewBag.Brands as List<BrandRequest>;
@@ -26,8 +26,30 @@
     <!-- App css (Require in all Page) -->
     <link href="~/css/app.min.css" rel="stylesheet" type="text/css" />
 
+    <link href="~/css/main-design-image.css" rel="stylesheet" />
+
     <!-- Theme Config js (Require in all Page) -->
     <script src="~/js/config.js"></script>
+
+    <script src="https://cdn.ckeditor.com/ckeditor5/36.0.1/classic/ckeditor.js"></script>
+   <style>
+        .ck-editor__editable {
+            min-height: 300px; /* Chiều cao tối thiểu của CKEditor */
+        }
+
+        #preview-images-additional {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px; /* Khoảng cách giữa các ảnh */
+            margin-top: 10px;
+        }
+
+        #preview-images-main img, #preview-images-additional img {
+            max-width: 100px;
+            height: auto;
+        }
+   </style>
+
 </head>
 
 <body>
@@ -460,12 +482,12 @@
         <div class="main-nav">
             <!-- Sidebar Logo -->
             <div class="logo-box">
-                <a href="index.html" class="logo-dark">
+                <a href="/admin/index" class="logo-dark">
                     <img src="~/images/logo-sm.png" class="logo-sm" alt="logo sm">
                     <img src="~/images/logo-dark.png" class="logo-lg" alt="logo dark">
                 </a>
 
-                <a href="index.html" class="logo-light">
+                <a href="/admin/index" class="logo-light">
                     <img src="~/images/logo-sm.png" class="logo-sm" alt="logo sm">
                     <img src="~/images/logo-light.png" class="logo-lg" alt="logo light">
                 </a>
@@ -519,33 +541,16 @@
                         <div class="collapse" id="sidebarCategory">
                             <ul class="nav sub-navbar-nav">
                                 <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="category-list.html">List</a>
+                                    <a class="sub-nav-link" href="category-list.html">
+                                        L
+                                        ist
+                                    </a>
                                 </li>
                                 <li class="sub-nav-item">
                                     <a class="sub-nav-link" href="category-edit.html">Edit</a>
                                 </li>
                                 <li class="sub-nav-item">
                                     <a class="sub-nav-link" href="category-add.html">Create</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link menu-arrow" href="#sidebarInventory" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarInventory">
-                            <span class="nav-icon">
-                                <iconify-icon icon="solar:box-bold-duotone"></iconify-icon>
-                            </span>
-                            <span class="nav-text"> Inventory </span>
-                        </a>
-                        <div class="collapse" id="sidebarInventory">
-                            <ul class="nav sub-navbar-nav">
-
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="inventory-warehouse.html">Warehouse</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="inventory-received-orders.html">Received Orders</a>
                                 </li>
                             </ul>
                         </div>
@@ -568,7 +573,7 @@
                                     <a class="sub-nav-link" href="order-detail.html">Details</a>
                                 </li>
                                 <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="order-cart.html">Cart</a>
+                                    <a class="sub-nav-link" href="/cart.html">Cart</a>
                                 </li>
                                 <li class="sub-nav-item">
                                     <a class="sub-nav-link" href="order-checkout.html">Check Out</a>
@@ -662,40 +667,6 @@
                             <span class="nav-text"> Profile </span>
                         </a>
                     </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link menu-arrow" href="#sidebarRoles" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarRoles">
-                            <span class="nav-icon">
-                                <iconify-icon icon="solar:user-speak-rounded-bold-duotone"></iconify-icon>
-                            </span>
-                            <span class="nav-text"> Roles </span>
-                        </a>
-                        <div class="collapse" id="sidebarRoles">
-                            <ul class="nav sub-navbar-nav">
-                                <ul class="nav sub-navbar-nav">
-                                    <li class="sub-nav-item">
-                                        <a class="sub-nav-link" href="role-list.html">List</a>
-                                    </li>
-                                    <li class="sub-nav-item">
-                                        <a class="sub-nav-link" href="role-edit.html">Edit</a>
-                                    </li>
-                                    <li class="sub-nav-item">
-                                        <a class="sub-nav-link" href="role-add.html">Create</a>
-                                    </li>
-                                </ul>
-                            </ul>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages-permissions.html">
-                            <span class="nav-icon">
-                                <iconify-icon icon="solar:checklist-minimalistic-bold-duotone"></iconify-icon>
-                            </span>
-                            <span class="nav-text"> Permissions </span>
-                        </a>
-                    </li>
-
                     <li class="nav-item">
                         <a class="nav-link menu-arrow" href="#sidebarCustomers" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarCustomers">
                             <span class="nav-icon">
@@ -711,31 +682,6 @@
                                 </li>
                                 <li class="sub-nav-item">
                                     <a class="sub-nav-link" href="customer-detail.html">Details</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link menu-arrow" href="#sidebarSellers" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarSellers">
-                            <span class="nav-icon">
-                                <iconify-icon icon="solar:shop-bold-duotone"></iconify-icon>
-                            </span>
-                            <span class="nav-text"> Sellers </span>
-                        </a>
-                        <div class="collapse" id="sidebarSellers">
-                            <ul class="nav sub-navbar-nav">
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="seller-list.html">List</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="seller-details.html">Details</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="seller-edit.html">Edit</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="seller-add.html">Create</a>
                                 </li>
                             </ul>
                         </div>
@@ -791,23 +737,6 @@
                         </a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="apps-calendar.html">
-                            <span class="nav-icon">
-                                <iconify-icon icon="solar:calendar-bold-duotone"></iconify-icon>
-                            </span>
-                            <span class="nav-text"> Calendar </span>
-                        </a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="apps-todo.html">
-                            <span class="nav-icon">
-                                <iconify-icon icon="solar:checklist-bold-duotone"></iconify-icon>
-                            </span>
-                            <span class="nav-text"> Todo </span>
-                        </a>
-                    </li>
 
                     <li class="menu-title mt-2">Support</li>
 
@@ -837,397 +766,6 @@
                             <span class="nav-text"> Privacy Policy </span>
                         </a>
                     </li>
-
-                    <li class="menu-title mt-2">Custom</li>
-
-                    <li class="nav-item">
-                        <a class="nav-link menu-arrow" href="#sidebarPages" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarPages">
-                            <span class="nav-icon">
-                                <iconify-icon icon="solar:gift-bold-duotone"></iconify-icon>
-                            </span>
-                            <span class="nav-text"> Pages </span>
-                        </a>
-                        <div class="collapse" id="sidebarPages">
-                            <ul class="nav sub-navbar-nav">
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="pages-starter.html">Welcome</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="pages-comingsoon.html">Coming Soon</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="pages-timeline.html">Timeline</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="pages-pricing.html">Pricing</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="pages-maintenance.html">Maintenance</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="pages-404.html">404 Error</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="pages-404-alt.html">404 Error (alt)</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link menu-arrow" href="#sidebarAuthentication" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarAuthentication">
-                            <span class="nav-icon">
-                                <iconify-icon icon="solar:lock-keyhole-bold-duotone"></iconify-icon>
-                            </span>
-                            <span class="nav-text"> Authentication </span>
-                        </a>
-                        <div class="collapse" id="sidebarAuthentication">
-                            <ul class="nav sub-navbar-nav">
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="auth-signin.html">Sign In</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="auth-signup.html">Sign Up</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="auth-password.html">Reset Password</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="auth-lock-screen.html">Lock Screen</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="widgets.html">
-                            <span class="nav-icon">
-                                <iconify-icon icon="solar:atom-bold-duotone"></iconify-icon>
-                            </span>
-                            <span class="nav-text">Widgets</span>
-                            <span class="badge bg-info badge-pill text-end">9+</span>
-                        </a>
-                    </li>
-
-                    <li class="menu-title mt-2">Components</li>
-
-                    <li class="nav-item">
-                        <a class="nav-link menu-arrow" href="#sidebarBaseUI" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarBaseUI">
-                            <span class="nav-icon">
-                                <iconify-icon icon="solar:bookmark-square-bold-duotone"></iconify-icon>
-                            </span>
-                            <span class="nav-text"> Base UI </span>
-                        </a>
-                        <div class="collapse" id="sidebarBaseUI">
-                            <ul class="nav sub-navbar-nav">
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="ui-accordion.html">Accordion</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="ui-alerts.html">Alerts</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="ui-avatar.html">Avatar</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="ui-badge.html">Badge</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="ui-breadcrumb.html">Breadcrumb</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="ui-buttons.html">Buttons</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="ui-card.html">Card</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="ui-carousel.html">Carousel</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="ui-collapse.html">Collapse</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="ui-dropdown.html">Dropdown</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="ui-list-group.html">List Group</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="ui-modal.html">Modal</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="ui-tabs.html">Tabs</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="ui-offcanvas.html">Offcanvas</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="ui-pagination.html">Pagination</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="ui-placeholders.html">Placeholders</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="ui-popovers.html">Popovers</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="ui-progress.html">Progress</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="ui-scrollspy.html">Scrollspy</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="ui-spinners.html">Spinners</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="ui-toasts.html">Toasts</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="ui-tooltips.html">Tooltips</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link menu-arrow" href="#sidebarExtendedUI" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarExtendedUI">
-                            <span class="nav-icon">
-                                <iconify-icon icon="solar:case-round-bold-duotone"></iconify-icon>
-                            </span>
-                            <span class="nav-text"> Advanced UI </span>
-                        </a>
-                        <div class="collapse" id="sidebarExtendedUI">
-                            <ul class="nav sub-navbar-nav">
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="extended-ratings.html">Ratings</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="extended-sweetalert.html">Sweet Alert</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="extended-swiper-silder.html">Swiper Slider</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="extended-scrollbar.html">Scrollbar</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="extended-toastify.html">Toastify</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link menu-arrow" href="#sidebarCharts" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarCharts">
-                            <span class="nav-icon">
-                                <iconify-icon icon="solar:pie-chart-2-bold-duotone"></iconify-icon>
-                            </span>
-                            <span class="nav-text"> Charts </span>
-                        </a>
-                        <div class="collapse" id="sidebarCharts">
-                            <ul class="nav sub-navbar-nav">
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="charts-apex-area.html">Area</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="charts-apex-bar.html">Bar</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="charts-apex-bubble.html">Bubble</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="charts-apex-candlestick.html">Candlestick</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="charts-apex-column.html">Column</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="charts-apex-heatmap.html">Heatmap</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="charts-apex-line.html">Line</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="charts-apex-mixed.html">Mixed</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="charts-apex-timeline.html">Timeline</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="charts-apex-boxplot.html">Boxplot</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="charts-apex-treemap.html">Treemap</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="charts-apex-pie.html">Pie</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="charts-apex-radar.html">Radar</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="charts-apex-radialbar.html">RadialBar</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="charts-apex-scatter.html">Scatter</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="charts-apex-polar-area.html">Polar Area</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link menu-arrow" href="#sidebarForms" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarForms">
-                            <span class="nav-icon">
-                                <iconify-icon icon="solar:book-bookmark-bold-duotone"></iconify-icon>
-                            </span>
-                            <span class="nav-text"> Forms </span>
-                        </a>
-                        <div class="collapse" id="sidebarForms">
-                            <ul class="nav sub-navbar-nav">
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="forms-basic.html">Basic Elements</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="forms-checkbox-radio.html">Checkbox &amp; Radio</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="forms-choices.html">Choice Select</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="forms-clipboard.html">Clipboard</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="forms-flatepicker.html">Flatepicker</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="forms-validation.html">Validation</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="forms-wizard.html">Wizard</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="forms-fileuploads.html">File Upload</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="forms-editors.html">Editors</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="forms-input-mask.html">Input Mask</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="forms-range-slider.html">Slider</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link menu-arrow" href="#sidebarTables" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarTables">
-                            <span class="nav-icon">
-                                <iconify-icon icon="solar:tuning-2-bold-duotone"></iconify-icon>
-                            </span>
-                            <span class="nav-text"> Tables </span>
-                        </a>
-                        <div class="collapse" id="sidebarTables">
-                            <ul class="nav sub-navbar-nav">
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="tables-basic.html">Basic Tables</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="tables-gridjs.html">Grid Js</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link menu-arrow" href="#sidebarIcons" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarIcons">
-                            <span class="nav-icon">
-                                <iconify-icon icon="solar:ufo-2-bold-duotone"></iconify-icon>
-                            </span>
-                            <span class="nav-text"> Icons </span>
-                        </a>
-                        <div class="collapse" id="sidebarIcons">
-                            <ul class="nav sub-navbar-nav">
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="icons-boxicons.html">Boxicons</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="icons-solar.html">Solar Icons</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link menu-arrow" href="#sidebarMaps" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarMaps">
-                            <span class="nav-icon">
-                                <iconify-icon icon="solar:streets-map-point-bold-duotone"></iconify-icon>
-                            </span>
-                            <span class="nav-text"> Maps </span>
-                        </a>
-                        <div class="collapse" id="sidebarMaps">
-                            <ul class="nav sub-navbar-nav">
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="maps-google.html">Google Maps</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="maps-vector.html">Vector Maps</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0);">
-                            <span class="nav-icon">
-                                <iconify-icon icon="solar:volleyball-bold-duotone"></iconify-icon>
-                            </span>
-                            <span class="nav-text">Badge Menu</span>
-                            <span class="badge bg-danger badge-pill text-end">1</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link menu-arrow" href="#sidebarMultiLevelDemo" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarMultiLevelDemo">
-                            <span class="nav-icon">
-                                <iconify-icon icon="solar:share-circle-bold-duotone"></iconify-icon>
-                            </span>
-                            <span class="nav-text"> Menu Item </span>
-                        </a>
-                        <div class="collapse" id="sidebarMultiLevelDemo">
-                            <ul class="nav sub-navbar-nav">
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link" href="javascript:void(0);">Menu Item 1</a>
-                                </li>
-                                <li class="sub-nav-item">
-                                    <a class="sub-nav-link  menu-arrow" href="#sidebarItemDemoSubItem" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarItemDemoSubItem">
-                                        <span> Menu Item 2 </span>
-                                    </a>
-                                    <div class="collapse" id="sidebarItemDemoSubItem">
-                                        <ul class="nav sub-navbar-nav">
-                                            <li class="sub-nav-item">
-                                                <a class="sub-nav-link" href="javascript:void(0);">Menu Sub item</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="javascript:void(0);">
-                            <span class="nav-icon">
-                                <iconify-icon icon="solar:user-block-rounded-bold-duotone"></iconify-icon>
-                            </span>
-                            <span class="nav-text"> Disable Item </span>
-                        </a>
-                    </li>
                 </ul>
             </div>
         </div>
@@ -1239,15 +777,53 @@
 
             <!-- Start Container Fluid -->
             <div class="container-xxl">
-
+                <form id="product-form" asp-action="CreateProduct" method="post" enctype="multipart/form-data">
                 <div class="row">
-                    <div class="col-xl-10 col-lg-8 ">
+                    <div class="col-xl-3 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                 <img id="main-image-preview" src="~/images/product/p-1.png" alt="Ảnh chính sản phẩm" class="img-fluid rounded bg-light d-block mx-auto">
+                                <div class="mt-3 text-center">
+                                    <h4>Ảnh chính sản phẩm</h4>
+                                    <!-- Thay thế nút chọn ảnh -->
+                                </div>
+                            </div>
+                            <div class="card-footer bg-light-subtle">
+                                <div class="row g-2">
+                                    <div class="col-lg-12">
+                                        <input type="file" id="product-image-main" name="mainImage" class="form-control d-none" accept="image/*" />
+                                        <label for="product-image-main" class="btn btn-outline-secondary w-100">Chọn ảnh</label>
+                                        <p id="file-limit-message-main" style="color: red; display: none;">You can select up to 1 image only.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-8 ">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4 class="card-title">Thêm ảnh phụ</h4>
+                                </div>
+                                <div class="card-body" style="padding-top: 0px;">
+                                    <div class="wrap">
+                                        <div class="dandev-reviews">
+                                            <div class="form_upload">
+                                                <label class="dandev_insert_attach"><span>Đính kèm ảnh</span></label>
+                                            </div>
+                                            <div class="list_attach">
+                                                <ul class="dandev_attach_view">
+                                                </ul>
+                                                <span class="dandev_insert_attach"><i class="dandev-plus">+</i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         <div class="card">
                             <div class="card-header">
                                 <h4 class="card-title">Product Information</h4>
                             </div>
                             <div class="card-body">
-                                <form id="product-form" asp-action="CreateProduct" method="post" enctype="multipart/form-data">
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <div class="mb-3">
@@ -1295,17 +871,7 @@
                                         <div class="col-lg-12">
                                             <div class="mb-3">
                                                 <label for="description" class="form-label">Description</label>
-                                                <textarea class="form-control bg-light-subtle" id="description" name="Description" rows="7" placeholder="Short description about the product" required></textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="mb-3">
-                                                <label for="product-image" class="form-label">Photo</label>
-                                                <input type="file" id="product-image" name="Image" class="form-control" accept="image/*" />
-                                                <img id="preview-image" src="#" alt="Image preview" style="display:none; max-width: 200px; margin-top: 10px;" />
-                                                <span asp-validation-for="Image" class="text-danger"></span>
+                                                <textarea class="form-control bg-light-subtle ckeditor" id="description" name="Description" placeholder="Short description about the product" ></textarea>
                                             </div>
                                         </div>
                                     </div>
@@ -1315,11 +881,11 @@
                                             <button type="button" id="cancel-button" class="btn btn-secondary">Cancel</button>
                                         </div>
                                     </div>
-                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
+            </form>
             </div>
             <!-- End Container Fluid -->
             <!-- ========== Footer Start ========== -->
@@ -1346,26 +912,122 @@
     <script src="~/js/vendor.js"></script>
 
     <!-- App Javascript (Require in all Page) -->
-    <script src="~/js/app.js"></script>
-    <script>
-        document.getElementById('product-image').addEventListener('change', function (event) {
-            const file = event.target.files[0];
-            const reader = new FileReader();
+	<script src="~/js/app.js"></script>
+	<script src="~/js/jquery.min.js"></script>
 
-            reader.onload = function (e) {
-                const previewImage = document.getElementById('preview-image');
-                previewImage.src = e.target.result;
-                previewImage.style.display = 'block';
+	<script>
+
+        class MyUploadAdapter {
+            constructor(loader) {
+                // The file loader instance to use during the upload. It sounds scary but do not
+                // worry — the loader will be passed into the adapter later on in this guide.
+                this.loader = loader;
             }
 
-            if (file) {
-                reader.readAsDataURL(file);
-            } else {
-                const previewImage = document.getElementById('preview-image');
-                previewImage.src = '#';
-                previewImage.style.display = 'none';
+            upload() {
+                return this.loader.file
+                    .then(file => new Promise((resolve, reject) => {
+                        this._initRequest();
+                        this._initListeners(resolve, reject, file);
+                        this._sendRequest(file);
+                    }));
             }
-        });
+
+            // Aborts the upload process.
+            abort() {
+                if (this.xhr) {
+                    this.xhr.abort();
+                }
+            }
+            // Initializes the XMLHttpRequest object using the URL passed to the constructor.
+            _initRequest() {
+                const xhr = this.xhr = new XMLHttpRequest();
+
+                // Note that your request may look different. It is up to you and your editor
+                // integration to choose the right communication channel. This example uses
+                // a POST request with JSON as a data structure but your configuration
+                // could be different.
+                xhr.open('POST', '@Url.Action("UploadImage", "Admin")', true);
+                xhr.responseType = 'json';
+            }
+            _initListeners(resolve, reject, file) {
+                const xhr = this.xhr;
+                const loader = this.loader;
+                const genericErrorText = `Couldn't upload file: ${file.name}.`;
+
+                xhr.addEventListener('error', () => reject(genericErrorText));
+                xhr.addEventListener('abort', () => reject());
+                xhr.addEventListener('load', () => {
+                    const response = xhr.response;
+
+                    // This example assumes the XHR server's "response" object will come with
+                    // an "error" which has its own "message" that can be passed to reject()
+                    // in the upload promise.
+                    //
+                    // Your integration may handle upload errors in a different way so make sure
+                    // it is done properly. The reject() function must be called when the upload fails.
+                    if (!response || response.error) {
+                        return reject(response && response.error ? response.error.message : genericErrorText);
+                    }
+
+                    // If the upload is successful, resolve the upload promise with an object containing
+                    // at least the "default" URL, pointing to the image on the server.
+                    // This URL will be used to display the image in the content. Learn more in the
+                    // UploadAdapter#upload documentation.
+                    resolve({
+                        default: response.url
+                    });
+                });
+
+                // Upload progress when it is supported. The file loader has the #uploadTotal and #uploaded
+                // properties which are used e.g. to display the upload progress bar in the editor
+                // user interface.
+                if (xhr.upload) {
+                    xhr.upload.addEventListener('progress', evt => {
+                        if (evt.lengthComputable) {
+                            loader.uploadTotal = evt.total;
+                            loader.uploaded = evt.loaded;
+                        }
+                    });
+                }
+            }
+            // Prepares the data and sends the request.
+            _sendRequest(file) {
+                // Prepare the form data.
+                const data = new FormData();
+
+                data.append('files', file);
+
+                // Important note: This is the right place to implement security mechanisms
+                // like authentication and CSRF protection. For instance, you can use
+                // XMLHttpRequest.setRequestHeader() to set the request headers containing
+                // the CSRF token generated earlier by your application.
+
+                // Send the request.
+                this.xhr.send(data);
+            }
+        }
+
+        function MyCustomUploadAdapterPlugin(editor) {
+            editor.plugins.get('FileRepository').createUploadAdapter = (loader) => {
+                // Configure the URL to the upload script in your backend here!
+                return new MyUploadAdapter(loader);
+            };
+        }
+        // Khởi tạo CKEditor
+        ClassicEditor
+            .create(document.querySelector('#description'), {
+                extraPlugins: [MyCustomUploadAdapterPlugin],
+            })
+            .then(editor => {
+                editorInstance = editor;
+            })
+            .catch(error => {
+                console.error('CKEditor initialization error:', error);
+            });
+
+
+
         document.getElementById('cancel-button').addEventListener('click', function () {
             // Xóa tất cả giá trị của các trường input text
             const textInputs = document.querySelectorAll('#product-form input[type="text"], #product-form textarea, #product-form input[type="number"]');
@@ -1382,8 +1044,85 @@
             const fileInput = document.getElementById('product-image');
             fileInput.value = ''; // Xóa giá trị của trường file
         });
-    </script>
 
+
+        $('.dandev_insert_attach').click(function () {
+            if ($('.list_attach').hasClass('show-btn') === false) {
+                $('.list_attach').addClass('show-btn');
+            }
+            var _lastimg = jQuery('.dandev_attach_view li').last().find('input[type="file"]').val();
+
+            if (_lastimg != '') {
+                var d = new Date();
+                var _time = d.getTime();
+                var _html = '<li id="li_files_' + _time + '" class="li_file_hide">';
+                _html += '<div class="img-wrap">';
+                _html += '<span class="close" onclick="DelImg(this)">×</span>';
+                _html += ' <div class="img-wrap-box"></div>';
+                _html += '</div>';
+                _html += '<div class= "' + _time + '">';
+                _html += '<input type="file" name="additionalImages" class="hidden"  onchange="uploadImg(this)" id="files_' + _time + '"   />';
+                _html += '</div>';
+                _html += '</li>';
+                jQuery('.dandev_attach_view').append(_html);
+                jQuery('.dandev_attach_view li').last().find('input[type="file"]').click();
+            } else {
+                if (_lastimg == '') {
+                    jQuery('.dandev_attach_view li').last().find('input[type="file"]').click();
+                } else {
+                    if ($('.list_attach').hasClass('show-btn') === true) {
+                        $('.list_attach').removeClass('show-btn');
+                    }
+                }
+            }
+        });
+
+        function uploadImg(el) {
+            var file_data = $(el).prop('files')[0];
+            var type = file_data.type;
+            var fileToLoad = file_data;
+
+            var fileReader = new FileReader();
+
+            fileReader.onload = function (fileLoadedEvent) {
+                var srcData = fileLoadedEvent.target.result;
+
+                var newImage = document.createElement('img');
+                newImage.src = srcData;
+                var _li = $(el).closest('li');
+                if (_li.hasClass('li_file_hide')) {
+                    _li.removeClass('li_file_hide');
+                }
+                _li.find('.img-wrap-box').append(newImage.outerHTML);
+
+
+            }
+            fileReader.readAsDataURL(fileToLoad);
+
+        }
+
+        function DelImg(el) {
+            jQuery(el).closest('li').remove();
+
+        }
+
+        $(document).ready(function () {
+            $('#product-image-main').on('change', function (event) {
+                var file = event.target.files[0];
+                var reader = new FileReader();
+
+                if (file) {
+                    reader.onload = function (e) {
+                        // Cập nhật ảnh chính
+                        $('#main-image-preview').attr('src', e.target.result);
+                    };
+
+                    reader.readAsDataURL(file);
+                }
+            });
+        });
+
+    </script>
 </body>
 
 

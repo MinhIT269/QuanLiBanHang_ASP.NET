@@ -15,6 +15,9 @@ namespace Quan_ly_ban_hang.Services
 		Task AddProductAsync(ProductRequest product);
 		Task UpdateProductAsync(ProductRequest model);
 		Task<bool> DeleteProductAsync(Guid id);
+		Task<List<ProductRequest>> FindProductsByNameAsync(string name, int page, int limit);
+		Task<List<ProductRequest>> FindProductsByIdAsync(string name, Guid cat, int page, int limit);
+		Task<string> UploadImageAsync(IFormFile image);
 
-    }
+	}
 }

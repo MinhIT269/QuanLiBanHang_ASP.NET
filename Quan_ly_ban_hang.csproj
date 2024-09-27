@@ -7,7 +7,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\js\plugins\ckfinder_aspnet_2.6.3\**" />
+    <Content Remove="wwwroot\js\plugins\ckfinder_aspnet_2.6.3\**" />
+    <EmbeddedResource Remove="wwwroot\js\plugins\ckfinder_aspnet_2.6.3\**" />
+    <None Remove="wwwroot\js\plugins\ckfinder_aspnet_2.6.3\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\lib\jquery\dist\product.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\images\logo-sm.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\lib\jquery\dist\product.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.7">
       <PrivateAssets>all</PrivateAssets>
@@ -18,12 +35,25 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.4" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="8.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Migrations\" />
+    <Folder Include="wwwroot\data\" />
     <Folder Include="wwwroot\vendor\fonts\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\lib\jquery\dist\product.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CKFinder">
+      <HintPath>..\..\ckfinder_aspnet_2.6.3\ckfinder\bin\Debug\CKFinder.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Quan_ly_ban_hang")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+959d04eaa9cefc092ca2bee2d8ae0541665e0e8e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Quan_ly_ban_hang")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Quan_ly_ban_hang")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

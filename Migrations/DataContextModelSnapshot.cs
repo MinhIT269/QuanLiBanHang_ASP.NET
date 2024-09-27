@@ -45,7 +45,7 @@ namespace Quan_ly_ban_hang.Migrations
 
             modelBuilder.Entity("Quan_ly_ban_hang.Models.CartItem", b =>
                 {
-                    b.Property<Guid>("CartitemId")
+                    b.Property<Guid>("CartItemId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
@@ -58,7 +58,7 @@ namespace Quan_ly_ban_hang.Migrations
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
-                    b.HasKey("CartitemId");
+                    b.HasKey("CartItemId");
 
                     b.HasIndex("CartId");
 
@@ -240,13 +240,13 @@ namespace Quan_ly_ban_hang.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("BrandId")
+                    b.Property<Guid?>("BrandId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasMaxLength(300)
-                        .HasColumnType("nvarchar(300)");
+                        .HasMaxLength(2500)
+                        .HasColumnType("nvarchar(2500)");
 
                     b.Property<string>("Image")
                         .IsRequired()
@@ -318,7 +318,7 @@ namespace Quan_ly_ban_hang.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("ProductImage");
+                    b.ToTable("ProductImages");
                 });
 
             modelBuilder.Entity("Quan_ly_ban_hang.Models.Review", b =>
@@ -369,7 +369,7 @@ namespace Quan_ly_ban_hang.Migrations
 
             modelBuilder.Entity("Quan_ly_ban_hang.Models.ShoppingCart", b =>
                 {
-                    b.Property<Guid>("CardId")
+                    b.Property<Guid>("CartId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
@@ -379,7 +379,7 @@ namespace Quan_ly_ban_hang.Migrations
                     b.Property<Guid>("CustomerId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.HasKey("CardId");
+                    b.HasKey("CartId");
 
                     b.HasIndex("CustomerId")
                         .IsUnique();
@@ -501,9 +501,7 @@ namespace Quan_ly_ban_hang.Migrations
                 {
                     b.HasOne("Quan_ly_ban_hang.Models.Brand", "Brand")
                         .WithMany("Products")
-                        .HasForeignKey("BrandId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("BrandId");
 
                     b.Navigation("Brand");
                 });

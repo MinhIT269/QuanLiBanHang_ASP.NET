@@ -5,7 +5,7 @@ namespace Quan_ly_ban_hang.Models
     public class CartItem
     {
         [Key]
-        public Guid CartitemId { get; set; }
+        public Guid CartItemId { get; set; }
         [Required]
         public Guid ProductId { get; set; }
 

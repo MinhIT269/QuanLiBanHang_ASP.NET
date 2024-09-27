@@ -31,7 +31,7 @@
 		(function (d) {
 			var wf = d.createElement('script'),
 				s = d.scripts[0];
-			wf.src = 'lib/jquery/dist/webfont.js';
+			wf.src = '/lib/jquery/dist/webfont.js';
 			wf.async = true;
 			s.parentNode.insertBefore(wf, s);
 		})(document);
@@ -143,7 +143,7 @@
 							<li class="item-menu narrow"><a href="demo9-about.html">About Us</a></li>
 							<li class="item-menu narrow"><a href="blog.html">Blog</a></li>
 							<li class="item-menu narrow"><a href="#">My Wishlist</a></li>
-							<li class="item-menu narrow"><a href="cart.html">Cart</a></li>
+							<li class="item-menu narrow"><a href=@Url.Action("Index", "Cart")">Cart</a></li>
 							<li class="item-menu">
 								<a class="login" href="#">Log In</a>
 							</li>
@@ -169,7 +169,7 @@
 								<i class="fas fa-bars"></i>
 							</button>
 							<a href="demo9.html" class="logo">
-								<img src="~/images/logo-white.png" alt="Porto Logo" width="110" height="46" />
+								<img src="/images/logo-white.png" alt="Porto Logo" width="110" height="46" />
 							</a>
 						</div>
 						<!-- End .header-left -->
@@ -181,9 +181,9 @@
 								</a>
 								<form action="/Product/Search" method="get">
 									<div class="header-search-wrapper">
-										<input type="search" class="form-control" name="name" id="q" placeholder="Search..." required="">
+										<input type="search" class="form-control" name="searchQuery" id="q" placeholder="Search..." required="">
 										<div class="select-custom">
-											<select id="cat" name="cat">
+											<select id="cat" name="idCat">
 												@foreach (var item in categories)
 												{
 													<option value="@item.CategoryId">@item.CategoryName</option>
@@ -201,7 +201,7 @@
 						<div class="header-right ml-0 ml-lg-auto">
 							<div class="header-contact d-none d-lg-flex align-items-center">
 								<i class="icon-phone-2"></i>
-								<h6>Call us now<a href="tel:#" class="font1">+123 5678 890</a></h6>
+								<h6>Call us now<a href="tel:#" class="font1">+093 8259 010</a></h6>
 							</div>
 
 							<a href="@Url.Action("Login", "home")" class="header-icon header-icon-user text-white">
@@ -215,7 +215,7 @@
 							<div class="dropdown cart-dropdown">
 								<a href="#" title="Cart" class="dropdown-toggle dropdown-arrow cart-toggle d-flex align-items-center" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
 									<i class="minicart-icon"></i>
-									<span class="cart-count badge-circle">3</span>
+									<span class="cart-count badge-circle">0</span>
 								</a>
 
 								<div class="cart-overlay"></div>
@@ -228,70 +228,7 @@
 										<!-- End .dropdown-cart-header -->
 
 										<div class="dropdown-cart-products">
-											<div class="product">
-												<div class="product-details">
-													<h4 class="product-title">
-														<a href="demo9-product.html">Ultimate 3D Bluetooth Speaker</a>
-													</h4>
-
-													<span class="cart-product-info">
-														<span class="cart-product-qty">1</span> × $99.00
-													</span>
-												</div>
-												<!-- End .product-details -->
-
-												<figure class="product-image-container">
-													<a href="demo9-product.html" class="product-image">
-														<img src="~/images/products/product-1.jpg" alt="product" width="80" height="80">
-													</a>
-
-													<a href="#" class="btn-remove" title="Remove Product"><span>×</span></a>
-												</figure>
-											</div>
-											<!-- End .product -->
-
-											<div class="product">
-												<div class="product-details">
-													<h4 class="product-title">
-														<a href="demo9-product.html">Brown Women Casual HandBag</a>
-													</h4>
-
-													<span class="cart-product-info">
-														<span class="cart-product-qty">1</span> × $35.00
-													</span>
-												</div>
-												<!-- End .product-details -->
-
-												<figure class="product-image-container">
-													<a href="demo9-product.html" class="product-image">
-														<img src="~/images/products/product-2.jpg" alt="product" width="80" height="80">
-													</a>
-
-													<a href="#" class="btn-remove" title="Remove Product"><span>×</span></a>
-												</figure>
-											</div>
-											<!-- End .product -->
-
-											<div class="product">
-												<div class="product-details">
-													<h4 class="product-title">
-														<a href="demo9-product.html">Circled Ultimate 3D Speaker</a>
-													</h4>
-
-													<span class="cart-product-info">
-														<span class="cart-product-qty">1</span> × $35.00
-													</span>
-												</div>
-												<!-- End .product-details -->
-
-												<figure class="product-image-container">
-													<a href="demo9-product.html" class="product-image">
-														<img src="~/images/products/product-3.jpg" alt="product" width="80" height="80">
-													</a>
-													<a href="#" class="btn-remove" title="Remove Product"><span>×</span></a>
-												</figure>
-											</div>
-											<!-- End .product -->
+											@* Render *@
 										</div>
 										<!-- End .cart-product -->
 
@@ -303,7 +240,7 @@
 										<!-- End .dropdown-cart-total -->
 
 										<div class="dropdown-cart-action">
-											<a href="cart.html" class="btn btn-gray btn-block view-cart">
+											<a href="@Url.Action("Index", "Cart")" class="btn btn-gray btn-block view-cart">
 												View
 												Cart
 											</a>
@@ -472,7 +409,7 @@
 										<a href="#" class="sf-with-ul"><i class="sicon-docs"></i>Pages</a>
 										<ul>
 											<li><a href="wishlist.html">Wishlist</a></li>
-											<li><a href="cart.html">Shopping Cart</a></li>
+											<li><a href="@Url.Action("Index", "Cart")">Shopping Cart</a></li>
 											<li><a href="checkout.html">Checkout</a></li>
 											<li><a href="dashboard.html">Dashboard</a></li>
 											<li><a href="demo9-about.html">About Us</a></li>
@@ -1090,9 +1027,12 @@
 										<div class="price-box">
 											<span class="product-price">@item.Price.ToString("N0", System.Globalization.CultureInfo.GetCultureInfo("vi-VN"))<small>₫</small></span>
 										</div>
+										<div class="stock-info">
+											<span>Còn hàng:  <strong> @item.Stock</strong></span> <!-- Hiển thị số lượng sản phẩm còn lại -->
+										</div>
 										<!-- End .price-box -->
 										<div class="product-action">
-											<a href="#" class="btn-icon btn-add-cart product-type-simple">
+											<a href="#" class="btn-icon btn-add-cart product-type-simple"data-product-id="@item.ProductId" data-quantity="1" data-animation-name="@item.Name" data-price="@item.Price" data-image="@item.Image" >
 												<i class="icon-shopping-cart"></i><span>ADD TO CART</span>
 											</a>
 											<a href="wishlist.html" class="btn-icon-wish" title="wishlist">
@@ -1163,12 +1103,12 @@
 									<h4 class="widget-title">Contact Info</h4>
 									<ul class="contact-info">
 										<li>
-											<span class="contact-info-label">Address:</span>1234 Street Name, City, England
+											<span class="contact-info-label">Address:</span>73 Ung Van Khiem,Da Nang City, VietNam
 										</li>
 										<li>
 											<span class="contact-info-label">Phone:</span>Toll Free <a href="tel:">
-												(123)
-												456-7890
+												(+84)
+												938259010
 											</a>
 										</li>
 										<li>
@@ -1218,13 +1158,6 @@
 										<li><a href="#">Super Fast HTML Template</a></li>
 										<li><a href="#">Top Rated HTML Template</a></li>
 										<li><a href="#">33 Unique Shop Layouts</a></li>
-										<li><a href="#">Powerful Wordpress Features</a></li>
-										<li><a href="#">Mobile & Retina Optimized</a></li>
-										<li><a href="#">Super Fast HTML Template</a></li>
-										<li><a href="#">Top Rated HTML Template</a></li>
-										<li><a href="#">33 Unique Shop Layouts</a></li>
-										<li><a href="#">Powerful Wordpress Features</a></li>
-										<li><a href="#">Mobile & Retina Optimized</a></li>
 									</ul>
 								</div>
 								<!-- End .widget -->
@@ -1239,10 +1172,6 @@
 										<a href="#">Clothes</a>
 										<a href="#">Fashion</a>
 										<a href="#">Hub</a>
-										<a href="#">Shirt</a>
-										<a href="#">Skirt</a>
-										<a href="#">Sports</a>
-										<a href="#">Sweater</a>
 									</div>
 								</div>
 								<!-- End .widget -->
@@ -1278,13 +1207,6 @@
 		<!-- End .container -->
 	</div>
 	<!-- End .page-wrapper -->
-	@*    <div class="loading-overlay">
-	<div class="bounce-loader">
-	<div class="bounce1"></div>
-	<div class="bounce2"></div>
-	<div class="bounce3"></div>
-	</div>
-	</div> *@
 
 	<div class="mobile-menu-overlay"></div>
 	<!-- End .mobil-menu-overlay -->
@@ -1296,28 +1218,15 @@
 				<ul class="mobile-menu menu-with-icon">
 					<li><a href="demo9.html"><i class="icon-home"></i>Home</a></li>
 					<li>
-						<a href="demo9-shop.html" class="sf-with-ul"><i class="sicon-briefcase"></i>Categories</a>
+						<a href="#" class="sf-with-ul"><i class="sicon-briefcase"></i>Categories</a>
 						<ul>
 							<li><a href="category.html">Full Width Banner</a></li>
-							<li><a href="category-banner-boxed-slider.html">Boxed Slider Banner</a></li>
-							<li><a href="category-banner-boxed-image.html">Boxed Image Banner</a></li>
-							<li><a href="https://www.portotheme.com/html/porto_ecommerce/category-sidebar-left.html">Left Sidebar</a></li>
-							<li><a href="category-sidebar-right.html">Right Sidebar</a></li>
-							<li><a href="category-off-canvas.html">Off Canvas Filter</a></li>
-							<li><a href="category-horizontal-filter1.html">Horizontal Filter 1</a></li>
-							<li><a href="category-horizontal-filter2.html">Horizontal Filter 2</a></li>
-							<li><a href="#">List Types</a></li>
 							<li>
 								<a href="category-infinite-scroll.html">
 									Ajax Infinite Scroll<span class="tip tip-new">New</span>
 								</a>
 							</li>
 							<li><a href="category.html">3 Columns Products</a></li>
-							<li><a href="category-4col.html">4 Columns Products</a></li>
-							<li><a href="category-5col.html">5 Columns Products</a></li>
-							<li><a href="category-6col.html">6 Columns Products</a></li>
-							<li><a href="category-7col.html">7 Columns Products</a></li>
-							<li><a href="category-8col.html">8 Columns Products</a></li>
 						</ul>
 					</li>
 					<li>
@@ -1329,48 +1238,7 @@
 									<li><a href="product.html">SIMPLE PRODUCT</a></li>
 									<li><a href="product-variable.html">VARIABLE PRODUCT</a></li>
 									<li><a href="product.html">SALE PRODUCT</a></li>
-									<li><a href="product.html">FEATURED & ON SALE</a></li>
-									<li><a href="product-sticky-info.html">WIDTH CUSTOM TAB</a></li>
-									<li><a href="product-sidebar-left.html">WITH LEFT SIDEBAR</a></li>
-									<li><a href="product-sidebar-right.html">WITH RIGHT SIDEBAR</a></li>
-									<li><a href="product-addcart-sticky.html">ADD CART STICKY</a></li>
 								</ul>
-							</li>
-							<li>
-								<a href="#" class="nolink">PRODUCT LAYOUTS</a>
-								<ul>
-									<li><a href="product-extended-layout.html">EXTENDED LAYOUT</a></li>
-									<li><a href="product-grid-layout.html">GRID IMAGE</a></li>
-									<li><a href="product-full-width.html">FULL WIDTH LAYOUT</a></li>
-									<li><a href="product-sticky-info.html">STICKY INFO</a></li>
-									<li><a href="product-sticky-both.html">LEFT & RIGHT STICKY</a></li>
-									<li><a href="product-transparent-image.html">TRANSPARENT IMAGE</a></li>
-									<li><a href="product-center-vertical.html">CENTER VERTICAL</a></li>
-									<li><a href="#">BUILD YOUR OWN</a></li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<a href="#" class="sf-with-ul"><i class="sicon-docs"></i>Pages</a>
-						<ul>
-							<li>
-								<a href="wishlist.html">Wishlist</a>
-							</li>
-							<li>
-								<a href="cart.html">Shopping Cart</a>
-							</li>
-							<li>
-								<a href="checkout.html">Checkout</a>
-							</li>
-							<li>
-								<a href="dashboard.html">Dashboard</a>
-							</li>
-							<li>
-								<a href="login.html">Login</a>
-							</li>
-							<li>
-								<a href="forgot-password.html">Forgot Password</a>
 							</li>
 						</ul>
 					</li>
@@ -1396,8 +1264,8 @@
 					<li><a href="demo9-about.html">About Us</a></li>
 					<li><a href="blog.html">BLOG</a></li>
 					<li><a href="wishlist.html">My Wishlist</a></li>
-					<li><a href="cart.html">Cart</a></li>
-					<li><a href="login.html" class="login-link">Log In</a></li>
+					<li><a href="@Url.Action("Index", "Cart")">Cart</a></li>
+					<li><a href="/home/lohin" class="login-link">Log In</a></li>
 				</ul>
 			</nav>
 			<!-- End .mobile-nav -->
@@ -1422,12 +1290,12 @@
 
 	<div class="sticky-navbar">
 		<div class="sticky-info">
-			<a href="demo9.html">
+			<a href="#">
 				<i class="icon-home"></i>Home
 			</a>
 		</div>
 		<div class="sticky-info">
-			<a href="demo9-shop.html" class="">
+			<a href="#" class="">
 				<i class="icon-bars"></i>Categories
 			</a>
 		</div>
@@ -1442,7 +1310,7 @@
 			</a>
 		</div>
 		<div class="sticky-info">
-			<a href="cart.html" class="">
+			<a  href="@Url.Action("Index", "Cart")" class="">
 				<i class="icon-shopping-cart position-relative">
 					<span class="cart-count badge-circle">3</span>
 				</i>Cart
@@ -1473,6 +1341,7 @@
 					</label>
 				</div>
 			</div>
+
 		</div>
 		<!-- End .newsletter-popup-content -->
 
@@ -1490,6 +1359,7 @@
 	<script src="~/lib/jquery/dist/bootstrap.bundle.min.js"></script>
 	<script src="~/lib/jquery/dist/plugins.min.js"></script>
 	<script src="~/lib/jquery/dist/jquery.appear.min.js"></script>
+	<script src="~/lib/jquery/dist/cart.js"></script>
 	<!-- Main JS File -->
 	<script src="~/lib/jquery/dist/main.min.js"></script>
 </body>

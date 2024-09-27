@@ -7,7 +7,7 @@ namespace Quan_ly_ban_hang.Request
         public Guid ProductId { get; set; }
         [Required, MaxLength(100)]
         public string Name { get; set; }
-        [MaxLength(300)]
+        [MaxLength(2500)]
         public string Description { get; set; }
 
         [Required, Range(0, double.MaxValue)]
@@ -23,5 +23,8 @@ namespace Quan_ly_ban_hang.Request
 		[Range(0, 100)]
 		public double? Percentage { get; set; }
         public List<Guid>? CategoryIds { get; set; }
+
+        // Thêm thuộc tính để lưu trữ chi tiết hình ảnh
+        public List<ProductImageRequest>? ProductImages { get; set; }
     }
 }

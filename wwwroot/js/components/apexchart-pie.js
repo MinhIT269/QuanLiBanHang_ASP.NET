@@ -261,7 +261,7 @@ var options = {
         type: 'image',
         opacity: 0.85,
         image: {
-             src: ['../../../assets/images/small/img-1.jpg', '../../../assets/images/small/img-2.jpg', '../../../assets/images/small/img-3.jpg', '../../../assets/images/small/img-5.jpg'],
+             src: ['~/images/small/img-1.jpg', '~/images/small/img-2.jpg', '~/images/small/img-3.jpg', '~/images/small/img-5.jpg'],
             width: 25,
             imagedHeight: 25
         },

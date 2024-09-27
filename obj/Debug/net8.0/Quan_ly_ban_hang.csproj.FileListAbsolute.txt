@@ -257,3 +257,6 @@ E:\Net_Train\Quan_ly_ban_hang\bin\Debug\net8.0\Microsoft.Extensions.Identity.Sto
 E:\Net_Train\Quan_ly_ban_hang\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 E:\Net_Train\Quan_ly_ban_hang\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 E:\Net_Train\Quan_ly_ban_hang\obj\Debug\net8.0\scopedcss\projectbundle\Quan_ly_ban_hang.bundle.scp.css
+E:\Net_Train\Quan_ly_ban_hang\obj\Debug\net8.0\Quan_ly_ban_hang.sourcelink.json
+E:\Net_Train\Quan_ly_ban_hang\bin\Debug\net8.0\CKFinder.dll
+E:\Net_Train\Quan_ly_ban_hang\bin\Debug\net8.0\CKFinder.pdb

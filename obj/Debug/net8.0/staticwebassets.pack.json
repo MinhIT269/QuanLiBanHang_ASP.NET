@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\css\\icons.min.css"
     },
     {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\css\\main-design-image.css",
+      "PackagePath": "staticwebassets\\css\\main-design-image.css"
+    },
+    {
       "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\css\\simple-line-icons.min.css",
       "PackagePath": "staticwebassets\\css\\simple-line-icons.min.css"
     },
@@ -47,6 +51,22 @@
     {
       "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\fonts\\Simple-Line-Iconsec97.eot",
+      "PackagePath": "staticwebassets\\fonts\\Simple-Line-Iconsec97.eot"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\fonts\\Simple-Line-Iconsec97.svg",
+      "PackagePath": "staticwebassets\\fonts\\Simple-Line-Iconsec97.svg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\fonts\\Simple-Line-Iconsec97.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Simple-Line-Iconsec97.ttf"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\fonts\\Simple-Line-Iconsec97.woff",
+      "PackagePath": "staticwebassets\\fonts\\Simple-Line-Iconsec97.woff"
     },
     {
       "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\fonts\\boxicons.eot",
@@ -105,6 +125,18 @@
       "PackagePath": "staticwebassets\\images\\404-error.png"
     },
     {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\Untitled Diagram_Admin.drawio.png",
+      "PackagePath": "staticwebassets\\images\\Untitled Diagram_Admin.drawio.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\Untitled Diagram_User.drawio.png",
+      "PackagePath": "staticwebassets\\images\\Untitled Diagram_User.drawio.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\UseCaseDiagram.png",
+      "PackagePath": "staticwebassets\\images\\UseCaseDiagram.png"
+    },
+    {
       "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\banners\\banner-fashion-1.jpg",
       "PackagePath": "staticwebassets\\images\\banners\\banner-fashion-1.jpg"
     },
@@ -123,6 +155,14 @@
     {
       "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\banners\\banner-top.jpg",
       "PackagePath": "staticwebassets\\images\\banners\\banner-top.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\blog\\author.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\author.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\blog\\post-1.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\post-1.jpg"
     },
     {
       "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\brand1.png",
@@ -165,6 +205,14 @@
       "PackagePath": "staticwebassets\\images\\brands\\brand6.png"
     },
     {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\brands\\dhl.png",
+      "PackagePath": "staticwebassets\\images\\brands\\dhl.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\brands\\fedex.png",
+      "PackagePath": "staticwebassets\\images\\brands\\fedex.png"
+    },
+    {
       "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\brands\\small\\brand1.png",
       "PackagePath": "staticwebassets\\images\\brands\\small\\brand1.png"
     },
@@ -187,6 +235,10 @@
     {
       "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\brands\\small\\brand6.png",
       "PackagePath": "staticwebassets\\images\\brands\\small\\brand6.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\brands\\ups.png",
+      "PackagePath": "staticwebassets\\images\\brands\\ups.png"
     },
     {
       "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\check-2.png",
@@ -377,6 +429,30 @@
       "PackagePath": "staticwebassets\\images\\phone.png"
     },
     {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\product-1(1).png",
+      "PackagePath": "staticwebassets\\images\\product-1(1).png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\product-1(2).jpg",
+      "PackagePath": "staticwebassets\\images\\product-1(2).jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\product-1-2.jpg",
+      "PackagePath": "staticwebassets\\images\\product-1-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\product-5-2.jpg",
+      "PackagePath": "staticwebassets\\images\\product-5-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\product-5.jpg",
+      "PackagePath": "staticwebassets\\images\\product-5.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\product-5.png",
+      "PackagePath": "staticwebassets\\images\\product-5.png"
+    },
+    {
       "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\product\\p-1.png",
       "PackagePath": "staticwebassets\\images\\product\\p-1.png"
     },
@@ -431,6 +507,26 @@
     {
       "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\product\\p-9.png",
       "PackagePath": "staticwebassets\\images\\product\\p-9.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\grid\\product-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\grid\\product-1.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\grid\\product-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\grid\\product-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\grid\\product-3-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\grid\\product-3-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\grid\\product-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\grid\\product-3.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\grid\\product-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\grid\\product-4.jpg"
     },
     {
       "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\product-1(1).png",
@@ -773,6 +869,150 @@
       "PackagePath": "staticwebassets\\images\\products\\product39.jpg"
     },
     {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\single\\body-shape.png",
+      "PackagePath": "staticwebassets\\images\\products\\single\\body-shape.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\single\\product-img.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\single\\product-img.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\small\\product-1-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\small\\product-1-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\small\\product-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\small\\product-1.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\small\\product-10-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\small\\product-10-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\small\\product-10.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\small\\product-10.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\small\\product-11-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\small\\product-11-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\small\\product-11.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\small\\product-11.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\small\\product-12-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\small\\product-12-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\small\\product-12.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\small\\product-12.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\small\\product-2-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\small\\product-2-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\small\\product-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\small\\product-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\small\\product-3-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\small\\product-3-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\small\\product-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\small\\product-3.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\small\\product-4-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\small\\product-4-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\small\\product-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\small\\product-4.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\small\\product-5-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\small\\product-5-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\small\\product-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\small\\product-5.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\small\\product-6-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\small\\product-6-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\small\\product-6.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\small\\product-6.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\small\\product-7-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\small\\product-7-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\small\\product-7.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\small\\product-7.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\small\\product-8-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\small\\product-8-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\small\\product-8.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\small\\product-8.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\small\\product-9-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\small\\product-9-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\small\\product-9.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\small\\product-9.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\zoom\\product-1-big.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\zoom\\product-1-big.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\zoom\\product-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\zoom\\product-1.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\zoom\\product-2-big.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\zoom\\product-2-big.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\zoom\\product-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\zoom\\product-2.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\zoom\\product-3-big.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\zoom\\product-3-big.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\zoom\\product-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\zoom\\product-3.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\zoom\\product-4-big.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\zoom\\product-4-big.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\zoom\\product-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\zoom\\product-4.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\zoom\\product-5-big.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\zoom\\product-5-big.jpg"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\products\\zoom\\product-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\zoom\\product-5.jpg"
+    },
+    {
       "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\qr-code.png",
       "PackagePath": "staticwebassets\\images\\qr-code.png"
     },
@@ -879,6 +1119,10 @@
     {
       "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\app.js",
       "PackagePath": "staticwebassets\\js\\app.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
     },
     {
       "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\components\\apexchart-area.js",
@@ -1013,6 +1257,34 @@
       "PackagePath": "staticwebassets\\js\\config.js"
     },
     {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\jquery.appear.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.appear.min.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\jquery.plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.plugin.min.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\main.min.js",
+      "PackagePath": "staticwebassets\\js\\main.min.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\map.js",
+      "PackagePath": "staticwebassets\\js\\map.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\nouislider.min.js",
+      "PackagePath": "staticwebassets\\js\\nouislider.min.js"
+    },
+    {
       "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\pages\\app-calendar.js",
       "PackagePath": "staticwebassets\\js\\pages\\app-calendar.js"
     },
@@ -1069,12 +1341,20 @@
       "PackagePath": "staticwebassets\\js\\pages\\widgets.js"
     },
     {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\plugins.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins.min.js"
+    },
+    {
       "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
       "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\vendor.js",
       "PackagePath": "staticwebassets\\js\\vendor.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\js\\webfont.js",
+      "PackagePath": "staticwebassets\\js\\webfont.js"
     },
     {
       "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\bootstrap\\LICENSE",
@@ -1295,6 +1575,10 @@
     {
       "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\jquery\\dist\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\jquery\\dist\\cart.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\cart.js"
     },
     {
       "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\jquery\\dist\\email-decode.min.js",

@@ -1,4 +1,4 @@
-
+﻿
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using Quan_ly_ban_hang.Models;
@@ -9,6 +9,15 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddDistributedMemoryCache(); // Đăng kí dịch vụ lưu cache trong bộ nhớ(Session sẽ sử dụng nó)
+builder.Services.AddSession(options =>   // Đăng ký dịch vụ Session
+{
+    options.Cookie.Name = "MinhNguyen"; // Đặt tên cookie cho session
+    options.IdleTimeout = TimeSpan.FromMinutes(20); // Thời gian tồn tại của Session
+    options.Cookie.HttpOnly = true; // Cookie chỉ có thể được truy cập từ HTTP
+    options.Cookie.IsEssential = true;
+});
 // Configure DbContext
 builder.Services.AddDbContext<DataContext>(options =>
 {
@@ -19,6 +28,8 @@ builder.Services.AddScoped<IAccountService, AccountService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IBrandService, BrandService>();
+builder.Services.AddScoped<ICartService, CartService>();
+builder.Services.AddScoped<ICartService, SessionCartService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -33,7 +44,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseSession();
 app.UseAuthentication();
 app.UseAuthorization();
 
@@ -42,3 +53,4 @@ app.MapControllerRoute(
     pattern: "{controller=home}/{action=index}/{id?}");
 
 app.Run();
+

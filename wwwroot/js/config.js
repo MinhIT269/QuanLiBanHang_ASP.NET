@@ -1,9 +1,3 @@
-/**
-* Theme: Rasket- Responsive Bootstrap 5 Admin Dashboard
-* Author: Techzaa
-* Module/App: Theme Config Js
-*/
-
 
 (function () {
 

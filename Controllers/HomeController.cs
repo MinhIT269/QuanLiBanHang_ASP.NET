@@ -52,32 +52,32 @@ namespace Quan_ly_ban_hang.Controllers
             return View();
         }
         [HttpPost]
-       public async Task<IActionResult> Registration(RegisterRequest model)
-{
-    if (ModelState.IsValid)
-    {
-        try
+        public async Task<IActionResult> Registration(RegisterRequest model)
         {
-            var message = await _accountService.RegisterUserAsync(model);
-            ViewBag.Message = message; // Add message to ViewBag
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    var message = await _accountService.RegisterUserAsync(model);
+                    ViewBag.Message = message; // Add message to ViewBag
                     return View(); // Redirect to a success page
+                }
+                catch (Exception ex)
+                {
+                    ModelState.AddModelError("", ex.Message); // Add error message to ModelState
+                                                              // Note: No need to add to ViewBag here if you are using alert
+                }
+            }
+            return View(model);
         }
-        catch (Exception ex)
+        public IActionResult Login()
         {
-            ModelState.AddModelError("", ex.Message); // Add error message to ModelState
-            // Note: No need to add to ViewBag here if you are using alert
-        }
-    }
-    return View(model);
-}
-		public IActionResult Login()
-        {
-              // Kiểm tra nếu người dùng hiện tại đã đăng nhập
-    if (HttpContext.User.Identity.IsAuthenticated)
-    {
-        // Nếu đã đăng nhập, chuyển hướng đến trang an toàn
-        return RedirectToAction("Securepage");
-    }
+            // Kiểm tra nếu người dùng hiện tại đã đăng nhập
+            if (HttpContext.User.Identity.IsAuthenticated)
+            {
+                // Nếu đã đăng nhập, chuyển hướng đến trang an toàn
+                return RedirectToAction("Securepage");
+            }
             return View();
         }
         [HttpPost]
@@ -85,35 +85,36 @@ namespace Quan_ly_ban_hang.Controllers
         {
             // Kiểm tra xem mô hình có hợp lệ không
             if (ModelState.IsValid)
-            {   // Xác thực người dùng 
-                var user = await _accountService.ValidateUserAsync(model);
+            {   
+                var user = await _accountService.ValidateUserAsync(model); // Xác thực người dùng 
                 if (user != null) // Nếu người dùng hợp lệ, tạo cookie
-				{
-					// Claim là một đối tượng chứa một cặp giá trị. Claim Type (Loại yêu cầu). Claim Value (Giá trị yêu cầu): 
-					var claims = new List<Claim>
+                {
+                    // Claim là một đối tượng chứa một cặp giá trị. Claim Type (Loại yêu cầu). Claim Value (Giá trị yêu cầu): 
+                    var claims = new List<Claim>
                      {
-                         new Claim(ClaimTypes.Name, user.EmailAddress),
-                         new Claim("Name", user.FullName),
+                         new Claim(ClaimTypes.Name, user.EmailAddress),  // Tên người dùng hoặc email
+                         new Claim("Name", user.FullName),// Tên đầy đủ của người dùng
                          new Claim(ClaimTypes.Role, user.Role.RoleName),
-                     };
+                         new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()) // ID người dùng
+                    };
                     //  Tạo đối tượng Claim Identity đại diện cho tập hợp các claims từ danh sách các claims
                     var claimIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme); // CookieAuthenticationDefaults.AuthenticationScheme: Ten phuong thuc xac thuc bang cookie 
-					// Đăng nhập người dùng bằng cách tạo và lưu cookie
-				    await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimIdentity));  //ClaimPrincipal: là một lớp đại diện cho người dùng Có thể chứa nhiều claimIdentity
-																																		   //ClaimsPrincipal là lớp chính được sử dụng để quản lý thông tin người dùng trong hệ thống và cung cấp phương thức để truy cập claims và identity của người dùng.
+                                                                                                                       // Đăng nhập người dùng bằng cách tạo và lưu cookie
+                    await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimIdentity));  //ClaimPrincipal: là một lớp đại diện cho người dùng Có thể chứa nhiều claimIdentity
+                                                                                                                                           //ClaimsPrincipal là lớp chính được sử dụng để quản lý thông tin người dùng trong hệ thống và cung cấp phương thức để truy cập claims và identity của người dùng.
 
-					// Chuyển hướng đến trang an toàn sau khi đăng nhập thành côn?g
+                    // Chuyển hướng đến trang an toàn sau khi đăng nhập thành côn?g
 
-					// Kiểm tra vai trò của người dùng và chuyển hướng đến trang tương ứng
-					if (user.Role.RoleName == "Admin")
-					{
-						return RedirectToAction("Index", "Admin"); // Chuyển hướng đến AdminController
-					}
-					else if (user.Role.RoleName == "Customer")
-					{
-						return RedirectToAction("Index", "Home"); // Chuyển hướng đến HomeController
-					}
-				}
+                    // Kiểm tra vai trò của người dùng và chuyển hướng đến trang tương ứng
+                    if (user.Role.RoleName == "Admin")
+                    {
+                        return RedirectToAction("Index", "Admin"); // Chuyển hướng đến AdminController
+                    }
+                    else if (user.Role.RoleName == "Customer")
+                    {
+                        return RedirectToAction("Index", "Home"); // Chuyển hướng đến HomeController
+                    }
+                }
 
                 else
                 {

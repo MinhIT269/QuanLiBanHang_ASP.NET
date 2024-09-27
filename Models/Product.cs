@@ -11,7 +11,7 @@ namespace Quan_ly_ban_hang.Models
 
         [Required,MaxLength(100)]
         public string Name { get; set; }
-        [MaxLength(300)]   
+        [MaxLength(2500)]
         public string Description { get; set; }
 
         [Required,Range(0,double.MaxValue)]
