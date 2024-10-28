@@ -14,9 +14,6 @@ namespace Quan_ly_ban_hang.Models
         public required string Address { get; set; }
         public DateTime RegistrationDate { get; set; }
 
-        public User User { get; set; }
-        public ICollection<Order> ?Order {  get; set; }
-        public ICollection<Review> ?Reviews { get; set; }
-        public ShoppingCart ?ShoppingCart { get; set; }
+        public User? User { get; set; }
     }
 }

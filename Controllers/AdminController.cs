@@ -1,4 +1,5 @@
 ﻿using Azure.Core;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Quan_ly_ban_hang.Request;
 using Quan_ly_ban_hang.Services;
@@ -26,7 +27,7 @@ namespace Quan_ly_ban_hang.Controllers
         }
         public async Task<IActionResult> List()
         {
-            var products = await _productService.GetAllProductAsync();
+          /*  var products = await _productService.GetAllProductAsync();*/
             return View();
         }
 

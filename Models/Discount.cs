@@ -7,7 +7,7 @@ namespace Quan_ly_ban_hang.Models
 		[Key]
 		public Guid DiscountId { get; set; }
 		[Required]
-		public string Code { get; set; } // Mã giảm giá
+		public string? Code { get; set; } // Mã giảm giá
 		[Required,Range(0,100)]
 		public double Percentage {  get; set; }
 

@@ -18,20 +18,22 @@ namespace Quan_ly_ban_hang.Models
 
         [Required]
         [DataType(DataType.EmailAddress)]
-        public string EmailAddress { get; set; }
+        public string? EmailAddress { get; set; }
 
         [Required]
         [DataType(DataType.PhoneNumber)]
-        public string Phone { get; set; }
+        public string? Phone { get; set; }
 
         [Required]
         [StringLength(50,MinimumLength = 7)] 
-        public string FullName { get; set; }
+        public string? FullName { get; set; }
 		[Required]
 		[StringLength(25, MinimumLength = 5)]
-		public string UserName { get; set; } 
-		public Customer Customer { get; set; }
-        public Role Role { get; set; }
-
-    }
+		public string? UserName { get; set; } 
+		public Customer? Customer { get; set; }
+        public Role? Role { get; set; }
+		public ICollection<Order>? Order { get; set; }
+		public ICollection<Review>? Reviews { get; set; }
+		public ShoppingCart? ShoppingCart { get; set; }
+	}
 }

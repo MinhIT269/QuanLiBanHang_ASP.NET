@@ -6,6 +6,6 @@
 		public Product Product { get; set; }
 
 		public Guid DiscountId { get; set; }
-		public Discount Discount { get; set; }
+		public Discount? Discount { get; set; }
 	}
 }

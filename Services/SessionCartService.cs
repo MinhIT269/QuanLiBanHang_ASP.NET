@@ -1,9 +1,10 @@
-﻿using Newtonsoft.Json;
+﻿using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using Quan_ly_ban_hang.Request;
 
 namespace Quan_ly_ban_hang.Services
 {
-    public class SessionCartService : ICartService
+    public class SessionCartService : ISessionCartService
     {
         private readonly IHttpContextAccessor _contextAccessor;
         private const string CartSessionKey = "cart"; // làm khóa để lưu và truy xuất dữ liệu giỏ hàng từ session
@@ -30,7 +31,7 @@ namespace Quan_ly_ban_hang.Services
             Session.SetString(CartSessionKey, sessionData);
         }
 
-        public void AddToCart(Guid productRequest, int quantity = 1, string name = null, decimal price = 0.0m, string image =null)
+        public void AddToCart(Guid productRequest, int stock, int quantity = 1, string name = null, decimal price = 0.0m, string image =null)
         {
             var cart = GetCartItems();
             var cartItem = cart.Find(p => p.ProductId == productRequest);
@@ -40,12 +41,12 @@ namespace Quan_ly_ban_hang.Services
             }
             else
             {
-                cart.Add(new CartRequest { ProductId = productRequest, Quantity = quantity, Price = price, Name = name, Image = image });
+                cart.Add(new CartRequest { ProductId = productRequest,Stock = stock, Quantity = quantity, Price = price, Name = name, Image = image });
             }
             SaveCartSession(cart);
         }
 
-        public void RemoveFromCart(Guid Id)
+		public void RemoveFromCart(Guid Id)
         {
             var cart = GetCartItems();
             var cartItem = cart.Find(p => p.ProductId == Id);

@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Quan_ly_ban_hang.Models;
 using Quan_ly_ban_hang.Request;
 using System.Security.Claims;
@@ -8,17 +9,22 @@ namespace Quan_ly_ban_hang.Services
     public class CartService : ICartService
     {
         private readonly DataContext _context;
-        private readonly Guid _userId;
+        private readonly IHttpContextAccessor _contextAccessor;
 
         public CartService(DataContext context, IHttpContextAccessor httpContextAccessor) {
             _context = context;
-            _userId = Guid.Parse(httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value); // Lấy user hiện tại
+            _contextAccessor = httpContextAccessor;
         }
 
-        public List<CartRequest> GetCartItems()
+        public Guid GetUserId()
         {
+            var userId = _contextAccessor.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            return Guid.TryParse(userId, out var guidUserId) ? guidUserId : Guid.Empty;
+        }
+        public List<CartRequest> GetCartItems()
+        {   var _userId = GetUserId();
             // Lấy ShoppingCart dựa trên UserId
-            var shoppingCart = _context.ShoppingCarts.FirstOrDefault(sc => sc.Customer.CustomerId == _userId);
+            var shoppingCart = _context.ShoppingCarts.FirstOrDefault(sc => sc.UserId == _userId);
             if (shoppingCart == null) // Khong tim thay gio hang tra ve danh sach rong
             {
                 return new List<CartRequest>();
@@ -26,17 +32,22 @@ namespace Quan_ly_ban_hang.Services
             // lay cac cartItem tu shoppingCart
             var cartItems = _context.CartItems.Where(c => c.CartId == shoppingCart.CartId).Select(c => new CartRequest
             {
-                ProductId = c.ProductId,
+                ProductId = c.ProductId,  
                 Quantity = c.Quantity,
-            }).ToList();
+				Name = c.Product.Name,     // Thêm tên sản phẩm
+				Price = c.Product.Price,   // Thêm giá sản phẩm
+				Image = c.Product.Image,
+                Stock = c.Product.Stock,
+			}).ToList();
             return cartItems;
         }
 
         // Thêm sản phẩm vào giỏ hàng
-        public void AddToCart(Guid productId, int quantity, string name = null, decimal price = 0.0m, string image = null)
+        public void AddToCart(Guid productId, int quantity, Guid userId, string name = null, decimal price = 0.0m, string image = null)
         {
-            // Lấy ShoppingCart của người dùng
-            var shoppingCart = _context.ShoppingCarts.FirstOrDefault(sc => sc.Customer.UserId == _userId);
+			var _userId = userId;
+			// Lấy ShoppingCart của người dùng
+			var shoppingCart = _context.ShoppingCarts.FirstOrDefault(sc => sc.UserId == _userId);
 
             // Nếu giỏ hàng chưa tồn tại, tạo mới
             if (shoppingCart == null)
@@ -44,7 +55,7 @@ namespace Quan_ly_ban_hang.Services
                 shoppingCart = new ShoppingCart
                 {
                     CartId = Guid.NewGuid(),
-                    CustomerId = _userId,
+                    UserId = _userId,
                     CreatedDate = DateTime.Now
                 };
                 _context.ShoppingCarts.Add(shoppingCart);
@@ -80,7 +91,8 @@ namespace Quan_ly_ban_hang.Services
         // Cập nhật số lượng sản phẩm trong giỏ hàng
         public void UpdateCartItem(Guid productId, int quantity)
         {
-            var shoppingCart = _context.ShoppingCarts.FirstOrDefault(sc => sc.Customer.UserId == _userId);
+			var _userId = GetUserId();
+			var shoppingCart = _context.ShoppingCarts.FirstOrDefault(sc => sc.UserId == _userId);
 
             if (shoppingCart != null)
             {
@@ -106,7 +118,8 @@ namespace Quan_ly_ban_hang.Services
         // Xóa sản phẩm khỏi giỏ hàng
         public void RemoveFromCart(Guid productId)
         {
-            var shoppingCart = _context.ShoppingCarts.FirstOrDefault(sc => sc.Customer.UserId == _userId);
+			var _userId = GetUserId();
+			var shoppingCart = _context.ShoppingCarts.FirstOrDefault(sc => sc.UserId == _userId);
 
             if (shoppingCart != null)
             {
@@ -124,7 +137,8 @@ namespace Quan_ly_ban_hang.Services
         // Tính tổng giá trị giỏ hàng
         public decimal GetCartTotal()
         {
-            var shoppingCart = _context.ShoppingCarts.FirstOrDefault(sc => sc.Customer.UserId == _userId);
+			var _userId = GetUserId();
+			var shoppingCart = _context.ShoppingCarts.FirstOrDefault(sc => sc.UserId == _userId);
 
             if (shoppingCart != null)
             {
@@ -139,7 +153,8 @@ namespace Quan_ly_ban_hang.Services
         }
         public void ClearCart()
         {
-            var shoppingCart = _context.ShoppingCarts.FirstOrDefault(sc => sc.Customer.UserId == _userId);
+			var _userId = GetUserId();
+			var shoppingCart = _context.ShoppingCarts.FirstOrDefault(sc => sc.UserId == _userId);
 
             if (shoppingCart != null)
             {

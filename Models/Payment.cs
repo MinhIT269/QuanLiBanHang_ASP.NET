@@ -16,9 +16,9 @@ namespace Quan_ly_ban_hang.Models
         public decimal Amount { get; set; }
 
         [Required, MaxLength(50)]
-        public string PaymentMethod { get; set; } // (e.g., Credit Card, Bank Transfer)
+        public string? PaymentMethod { get; set; } // (e.g., Credit Card, Bank Transfer)
 
         // Navigation properties
-        public Order Order { get; set; }
+        public Order? Order { get; set; }
     }
 }

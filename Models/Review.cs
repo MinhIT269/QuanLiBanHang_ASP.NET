@@ -11,17 +11,17 @@ namespace Quan_ly_ban_hang.Models
         public Guid ProductId { get; set; } // FK
 
         [Required]
-        public Guid CustomerId { get; set; } // FK
+        public Guid UserId { get; set; } // FK
 
         [Required, Range(1, 5)]
         public int Rating { get; set; }
 
-        public string ?Comment { get; set; }
+        public string? Comment { get; set; }
 
         public DateTime ReviewDate { get; set; }
 
         // Navigation properties
-        public Product ?Product { get; set; }
-        public Customer ?Customer { get; set; }
+        public Product? Product { get; set; }
+        public User? User { get; set; }
     }
 }

@@ -142,7 +142,7 @@
 						<div class="col-6 col-sm-4 col-md-3">
 							<div class="product-default">
 								<figure>
-									<a href="product.html">
+									<a href="/product/productdetail?id=${item.productId}">
 										 <img src="${item.image}" width="300" height="300" alt="${item.name}" style="width: 300px; height: 300px;" />
 									</a>
 									<div class="label-group">
@@ -157,7 +157,7 @@
 										</div>
 									</div>
 									<h3 class="product-title">
-										<a href="product.html">${item.name}</a>
+										<a href="/product/productdetail?id=${item.productId}">${item.name}</a>
 									</h3>
 									<div class="ratings-container">
 										<div class="product-ratings">

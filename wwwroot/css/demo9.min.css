@@ -1,5 +1,7 @@
 ﻿@charset "UTF-8";
-
+.font-14 {
+    font-size: 14px;
+}
 .mt-1 {
     margin-top: 1rem !important
 }

@@ -125,6 +125,10 @@
       "PackagePath": "staticwebassets\\images\\404-error.png"
     },
     {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\NguyenNhatMinh.png",
+      "PackagePath": "staticwebassets\\images\\NguyenNhatMinh.png"
+    },
+    {
       "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\Untitled Diagram_Admin.drawio.png",
       "PackagePath": "staticwebassets\\images\\Untitled Diagram_Admin.drawio.png"
     },
@@ -347,6 +351,10 @@
     {
       "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\flags.png",
       "PackagePath": "staticwebassets\\images\\flags.png"
+    },
+    {
+      "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\hinh 2.jpg",
+      "PackagePath": "staticwebassets\\images\\hinh 2.jpg"
     },
     {
       "Id": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\images\\icons\\favicon.png",

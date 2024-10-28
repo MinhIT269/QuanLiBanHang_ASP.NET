@@ -7,8 +7,8 @@ namespace Quan_ly_ban_hang.Models
         [Key]
         public Guid RoleId { get; set; }
         [Required, MaxLength(10)]
-        public string RoleName {  get; set; }
+        public string? RoleName {  get; set; }
 
-        public ICollection<User> Users { get; set; }
+        public ICollection<User>? Users { get; set; }
     }
 }

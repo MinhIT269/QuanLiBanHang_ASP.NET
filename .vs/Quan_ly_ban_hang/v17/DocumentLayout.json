@@ -3,92 +3,48 @@
   "WorkspaceRootPath": "E:\\Net_Train\\Quan_ly_ban_hang\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\views\\admin\\createproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:views\\admin\\createproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\views\\home\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:views\\home\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\models\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:models\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\wwwroot\\lib\\jquery\\dist\\cart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:wwwroot\\lib\\jquery\\dist\\cart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\wwwroot\\lib\\jquery\\dist\\product.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:wwwroot\\lib\\jquery\\dist\\product.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\views\\product\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:views\\product\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\request\\productrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:request\\productrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\views\\product\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:views\\product\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\views\\admin\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:views\\admin\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\request\\cartrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:request\\cartrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\request\\brandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:request\\brandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|e:\\net_train\\quan_ly_ban_hang\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D141742-FA1A-41F9-869C-B6D3B6A58826}|Quan_ly_ban_hang.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,269 +62,138 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
-              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Admin\\Index.cshtml",
-              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
-              "ViewState": "AQIAAAQFAAAAAAAAAAD4vwsFAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-27T03:18:21.668Z",
+              "DocumentIndex": 1,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Models\\CartItem.cs",
+              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Models\\CartItem.cs",
+              "RelativeToolTip": "Models\\CartItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:13:19.364Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateProduct.cshtml",
-              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Admin\\CreateProduct.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\CreateProduct.cshtml",
-              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Admin\\CreateProduct.cshtml",
-              "RelativeToolTip": "Views\\Admin\\CreateProduct.cshtml",
-              "ViewState": "AQIAAD8EAAAAAAAAAAAAAGkEAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-27T03:16:44.253Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "product.js",
-              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\jquery\\dist\\product.js",
-              "RelativeDocumentMoniker": "wwwroot\\lib\\jquery\\dist\\product.js",
-              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\jquery\\dist\\product.js",
-              "RelativeToolTip": "wwwroot\\lib\\jquery\\dist\\product.js",
-              "ViewState": "AQIAAJkAAAAAAAAAAAAIwKsAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-09-23T09:44:12.32Z"
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAqwBkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T18:29:28.666Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Home\\List.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\List.cshtml",
-              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Home\\List.cshtml",
-              "RelativeToolTip": "Views\\Home\\List.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-23T08:22:18.038Z"
+              "Title": "ProductCategory.cs",
+              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Models\\ProductCategory.cs",
+              "RelativeDocumentMoniker": "Models\\ProductCategory.cs",
+              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Models\\ProductCategory.cs",
+              "RelativeToolTip": "Models\\ProductCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T09:47:08.553Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Cart\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Cart\\Index.cshtml",
-              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Cart\\Index.cshtml",
-              "RelativeToolTip": "Views\\Cart\\Index.cshtml",
-              "ViewState": "AQIAAEoDAAAAAAAAAAAawHMAAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-23T08:13:20.977Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAJwAAAAAAAAAAAAawKsAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-23T07:55:37.309Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ProductDetail.cshtml",
-              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Product\\ProductDetail.cshtml",
-              "RelativeDocumentMoniker": "Views\\Product\\ProductDetail.cshtml",
-              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Product\\ProductDetail.cshtml",
-              "RelativeToolTip": "Views\\Product\\ProductDetail.cshtml",
-              "ViewState": "AQIAANAAAAAAAAAAAAAEwMgAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-21T18:07:45.655Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
-              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "Views\\Product\\Index.cshtml",
-              "ViewState": "AQIAACoGAAAAAAAAAAAAAKQHAAB0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-22T16:46:25.684Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Search.cshtml",
-              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Product\\Search.cshtml",
-              "RelativeDocumentMoniker": "Views\\Product\\Search.cshtml",
-              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Product\\Search.cshtml",
-              "RelativeToolTip": "Views\\Product\\Search.cshtml",
-              "ViewState": "AQIAAH8EAAAAAAAAAAD4v44EAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-22T08:30:57.476Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "cart.js",
-              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\jquery\\dist\\cart.js",
-              "RelativeDocumentMoniker": "wwwroot\\lib\\jquery\\dist\\cart.js",
-              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\wwwroot\\lib\\jquery\\dist\\cart.js",
-              "RelativeToolTip": "wwwroot\\lib\\jquery\\dist\\cart.js",
-              "ViewState": "AQIAAHIAAAAAAAAAAIA1wH0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-09-23T08:03:15.836Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAowGYAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T18:03:54.065Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "ProductService.cs",
               "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "Services\\ProductService.cs",
               "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Services\\ProductService.cs",
               "RelativeToolTip": "Services\\ProductService.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAIAzwBEAAAAfAAAA",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAUwG0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T09:28:36.163Z"
+              "WhenOpened": "2024-10-28T08:26:45.473Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Home\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Login.cshtml",
-              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Home\\Login.cshtml",
-              "RelativeToolTip": "Views\\Home\\Login.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACMAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-23T08:22:21.542Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ProductRequest.cs",
-              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Request\\ProductRequest.cs",
-              "RelativeDocumentMoniker": "Request\\ProductRequest.cs",
-              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Request\\ProductRequest.cs",
-              "RelativeToolTip": "Request\\ProductRequest.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "Models\\Payment.cs",
+              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Models\\Payment.cs",
+              "RelativeToolTip": "Models\\Payment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T09:28:03.54Z"
+              "WhenOpened": "2024-10-28T08:26:28.922Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Services\\IProductService.cs",
-              "RelativeDocumentMoniker": "Services\\IProductService.cs",
-              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Services\\IProductService.cs",
-              "RelativeToolTip": "Services\\IProductService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T09:28:24.635Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAIwBYAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T08:31:54.224Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CartRequest.cs",
-              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Request\\CartRequest.cs",
-              "RelativeDocumentMoniker": "Request\\CartRequest.cs",
-              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Request\\CartRequest.cs",
-              "RelativeToolTip": "Request\\CartRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T09:46:48.52Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
-              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Controllers\\CartController.cs",
-              "RelativeToolTip": "Controllers\\CartController.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAAwEAAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T10:22:31.608Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 0,
               "Title": "CartService.cs",
               "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Services\\CartService.cs",
               "RelativeDocumentMoniker": "Services\\CartService.cs",
               "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Services\\CartService.cs",
               "RelativeToolTip": "Services\\CartService.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAYwCMAAAB5AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T09:48:55.612Z"
+              "WhenOpened": "2024-10-28T07:54:22.786Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T18:59:43.431Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "DocumentIndex": 7,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Services\\CategoryService.cs",
+              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Services\\CategoryService.cs",
+              "RelativeToolTip": "Services\\CategoryService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T18:03:52.591Z"
+              "WhenOpened": "2024-10-28T07:54:21.189Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "BrandRequest.cs",
-              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Request\\BrandRequest.cs",
-              "RelativeDocumentMoniker": "Request\\BrandRequest.cs",
-              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Request\\BrandRequest.cs",
-              "RelativeToolTip": "Request\\BrandRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 8,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Admin\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\List.cshtml",
+              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Admin\\List.cshtml",
+              "RelativeToolTip": "Views\\Admin\\List.cshtml",
+              "ViewState": "AQIAAEYDAAAAAAAAAAAiwGIDAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T06:59:19.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAYwC8AAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T10:22:12.704Z"
+              "WhenOpened": "2024-10-25T06:59:05.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Category.cs",
+              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T18:29:24.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
+              "ToolTip": "E:\\Net_Train\\Quan_ly_ban_hang\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAANIEAAAAAAAAAAAAANsEAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T09:58:40.629Z"
             }
           ]
         }

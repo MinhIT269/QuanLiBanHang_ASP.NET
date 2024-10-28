@@ -11,17 +11,19 @@ namespace Quan_ly_ban_hang.Models
         [Required]
         public Guid OrderId { get; set; } // FK
 
-        [Required]
+		[Required]
         public Guid ProductId { get; set; } // FK
+		public string? OrderCode { get; set; }
+		public string? UserName { get; set; }
 
-        [Required, Range(1, int.MaxValue)]
+		[Required, Range(1, int.MaxValue)]
         public int Quantity { get; set; }
 
         [Required, Range(0, double.MaxValue)]
         public decimal UnitPrice { get; set; }
 
         // Navigation properties
-        public Order Order { get; set; }
-        public Product Product { get; set; }
+        public Order? Order { get; set; }
+        public Product? Product { get; set; }
     }
 }

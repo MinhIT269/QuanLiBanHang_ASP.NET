@@ -1,4 +1,4 @@
-﻿ @using Quan_ly_ban_hang.Request
+﻿@using Quan_ly_ban_hang.Request
 @{
 	var categories = ViewBag.Categories as List<CategoryRequest>;
 	var products = ViewBag.Products as List<ProductRequest>;
@@ -143,9 +143,9 @@
 							<li class="item-menu narrow"><a href="demo9-about.html">About Us</a></li>
 							<li class="item-menu narrow"><a href="blog.html">Blog</a></li>
 							<li class="item-menu narrow"><a href="#">My Wishlist</a></li>
-							<li class="item-menu narrow"><a href=@Url.Action("Index", "Cart")">Cart</a></li>
+							<li class="item-menu narrow"><a href="@Url.Action("Index", "Cart")">Cart</a></li>
 							<li class="item-menu">
-								<a class="login" href="#">Log In</a>
+								<a class="login" href="@Url.Action("login", "home")">Log In</a>
 							</li>
 						</ul>
 						<span class="separator d-none d-lg-block"></span>
@@ -168,7 +168,7 @@
 							<button class="mobile-menu-toggler text-white mr-2" type="button">
 								<i class="fas fa-bars"></i>
 							</button>
-							<a href="demo9.html" class="logo">
+							<a href="@Url.Action("Index", "Home")" class="logo">
 								<img src="/images/logo-white.png" alt="Porto Logo" width="110" height="46" />
 							</a>
 						</div>
@@ -204,7 +204,7 @@
 								<h6>Call us now<a href="tel:#" class="font1">+093 8259 010</a></h6>
 							</div>
 
-							<a href="@Url.Action("Login", "home")" class="header-icon header-icon-user text-white">
+							<a href="@Url.Action("login", "home")" class="header-icon header-icon-user text-white">
 								<i class="icon-user-2 d-inline-flex-center"></i>
 							</a>
 
@@ -230,14 +230,7 @@
 										<div class="dropdown-cart-products">
 											@* Render *@
 										</div>
-										<!-- End .cart-product -->
 
-										<div class="dropdown-cart-total">
-											<span>SUBTOTAL:</span>
-
-											<span class="cart-total-price float-right">$134.00</span>
-										</div>
-										<!-- End .dropdown-cart-total -->
 
 										<div class="dropdown-cart-action">
 											<a href="@Url.Action("Index", "Cart")" class="btn btn-gray btn-block view-cart">
@@ -421,7 +414,7 @@
 												</ul>
 											</li>
 											<li><a href="demo9-contact.html">Contact Us</a></li>
-											<li><a href="login.html">Login</a></li>
+											<li><a href="@Url.Action("Login", "home")">Login</a></li>
 											<li><a href="forgot-password.html">Forgot Password</a></li>
 										</ul>
 									</li>
@@ -1001,9 +994,8 @@
 							{
 								<div class="product-default left-details">
 									<figure>
-										<a href="demo9-product.html">
+										<a href="@Url.Action("productdetail", "product", new {id = item.ProductId})">
 											<img src="@item.Image" alt="product" width="300" height="300" style="width: 300px; height: 300px; ">
-											@*  <img src="~/images/demoes/demo9/products/product-1-hover.jpg" alt="product" width="300" height="300" style="width: 300px; height: 300px; "> *@
 										</a>
 										<div class="label-group">
 											<span class="product-label label-hot">HOT</span>
@@ -1011,10 +1003,10 @@
 									</figure>
 									<div class="product-details">
 										<div class="category-list">
-											<a href="demo9-shop.html" class="product-category">@item.CategoryName</a>
-											<a href="demo9-shop.html" class="product-category"></a>
+											<a href="@Url.Action("productdetail", "product", new { id = item.ProductId })" class="product-category">@item.CategoryName</a>
+											<a href="@Url.Action("productdetail", "product", new { id = item.ProductId })" class="product-category"></a>
 										</div>
-										<h3 class="product-title"> <a href="demo9-product.html">@item.Name</a> </h3>
+										<h3 class="product-title"> <a href="@Url.Action("productdetail", "product", new { id = item.ProductId })">@item.Name</a> </h3>
 										<div class="ratings-container">
 											<div class="product-ratings">
 												<span class="ratings" style="width:0%"></span>
@@ -1032,7 +1024,7 @@
 										</div>
 										<!-- End .price-box -->
 										<div class="product-action">
-											<a href="#" class="btn-icon btn-add-cart product-type-simple"data-product-id="@item.ProductId" data-quantity="1" data-animation-name="@item.Name" data-price="@item.Price" data-image="@item.Image" >
+											<a href="#" class="btn-icon btn-add-cart product-type-simple"data-product-id="@item.ProductId" data-quantity="@item.Stock" data-animation-name="@item.Name" data-price="@item.Price" data-image="@item.Image" >
 												<i class="icon-shopping-cart"></i><span>ADD TO CART</span>
 											</a>
 											<a href="wishlist.html" class="btn-icon-wish" title="wishlist">
@@ -1103,19 +1095,19 @@
 									<h4 class="widget-title">Contact Info</h4>
 									<ul class="contact-info">
 										<li>
-											<span class="contact-info-label">Address:</span>73 Ung Van Khiem,Da Nang City, VietNam
+											<span class="contact-info-label font-14">Address:</span>73 Ung Van Khiem,Da Nang City, VietNam
 										</li>
 										<li>
-											<span class="contact-info-label">Phone:</span>Toll Free <a href="tel:">
+											<span class="contact-info-label font-14">Phone:</span>Toll Free <a href="tel:">
 												(+84)
 												938259010
 											</a>
 										</li>
 										<li>
-											<span class="contact-info-label">Email:</span> <a href="https://portotheme.com/cdn-cgi/l/email-protection#c1aca0a8ad81a4b9a0acb1ada4efa2aeac"><span class="__cf_email__" data-cfemail="dbb6bab2b79bbea3bab6abb7bef5b8b4b6">[email&#160;protected]</span></a>
+											<span class="contact-info-label font-14">Email:</span> <a href="https://portotheme.com/cdn-cgi/l/email-protection#c1aca0a8ad81a4b9a0acb1ada4efa2aeac"><span class="__cf_email__" data-cfemail="dbb6bab2b79bbea3bab6abb7bef5b8b4b6">[email&#160;protected]</span></a>
 										</li>
 										<li>
-											<span class="contact-info-label">Working Days/Hours:</span> Mon - Sun / 9:00 AM - 8:00 PM
+											<span class="contact-info-label font-14">Working Days/Hours:</span> Mon - Sun / 9:00 AM - 8:00 PM
 										</li>
 									</ul>
 									<div class="social-icons">
@@ -1131,20 +1123,30 @@
 
 							<div class="col-lg-3 col-sm-6">
 								<div class="widget">
-									<h4 class="widget-title">Customer Service</h4>
+									<h4 class="widget-title">Hỗ Trợ Khách Hàng</h4>
 
 									<ul class="links">
-										<li><a href="#">Help & FAQs</a></li>
-										<li><a href="#">Order Tracking</a></li>
-										<li><a href="#">Shipping & Delivery</a></li>
-										<li><a href="#">Orders History</a></li>
-										<li><a href="#">Advanced search</a></li>
-										<li><a href="dashboard.html">My Account</a></li>
-										<li><a href="#">Careers</a></li>
-										<li><a href="demo9-about.html">About Us</a></li>
-										<li><a href="demo9-contact.html">Contact Us</a></li>
-										<li><a href="#">Corporate Sales</a></li>
+										<li style="border-bottom: 1px solid rgba(0, 0, 0, 0.8); padding-bottom: 3px; font-size: 14px;">
+											<a href="#" style="text-decoration: none;">Quản lí tài khoản</a>
+										</li>
+										<li style="border-bottom: 1px solid rgba(0, 0, 0, 0.8); padding-bottom: 3px; font-size: 14px;">
+											<a href="#" style="text-decoration: none;">Hướng dẫn mua hàng</a>
+										</li>
+										<li style="border-bottom: 1px solid rgba(0, 0, 0, 0.8); padding-bottom: 3px; font-size: 14px;">
+											<a href="#" style="text-decoration: none;">Giao hàng và thanh toán</a>
+										</li>
+										<li style="border-bottom: 1px solid rgba(0, 0, 0, 0.8); padding-bottom: 3px; font-size: 14px;">
+											<a href="#" style="text-decoration: none;">Điều khoản dịch vụ</a>
+										</li>
+										<li style="border-bottom: 1px solid rgba(0, 0, 0, 0.8); padding-bottom: 3px; font-size: 14px;">
+											<a href="#" style="text-decoration: none;">Chính sách đổi trả</a>
+										</li>
+										<li style="border-bottom: 1px solid rgba(0, 0, 0, 0.8); padding-bottom: 3px; font-size: 14px;">
+											<a href="#" style="text-decoration: none;">Giới thiệu và liên hệ</a>
+										</li>
 									</ul>
+
+
 								</div>
 								<!-- End .widget -->
 							</div>
@@ -1265,7 +1267,7 @@
 					<li><a href="blog.html">BLOG</a></li>
 					<li><a href="wishlist.html">My Wishlist</a></li>
 					<li><a href="@Url.Action("Index", "Cart")">Cart</a></li>
-					<li><a href="/home/lohin" class="login-link">Log In</a></li>
+					<li><a href="@Url.Action("Login", "home")">Log In</a></li>
 				</ul>
 			</nav>
 			<!-- End .mobile-nav -->
@@ -1305,7 +1307,7 @@
 			</a>
 		</div>
 		<div class="sticky-info">
-			<a href="login.html" class="">
+			<a href="@Url.Action("Login", "home")" class="">
 				<i class="icon-user-2"></i>Account
 			</a>
 		</div>

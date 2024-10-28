@@ -29,7 +29,6 @@ namespace Quan_ly_ban_hang.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasMaxLength(300)
                         .HasColumnType("nvarchar(300)");
 
@@ -58,11 +57,14 @@ namespace Quan_ly_ban_hang.Migrations
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
+                    b.Property<Guid?>("Shopping_CartCartId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.HasKey("CartItemId");
 
-                    b.HasIndex("CartId");
-
                     b.HasIndex("ProductId");
+
+                    b.HasIndex("Shopping_CartCartId");
 
                     b.ToTable("CartItems");
                 });
@@ -79,7 +81,6 @@ namespace Quan_ly_ban_hang.Migrations
                         .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasMaxLength(200)
                         .HasColumnType("nvarchar(200)");
 
@@ -158,8 +159,8 @@ namespace Quan_ly_ban_hang.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("CustomerId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<string>("OrderCode")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("OrderDate")
                         .HasColumnType("datetime2");
@@ -170,11 +171,17 @@ namespace Quan_ly_ban_hang.Migrations
                         .HasColumnType("nvarchar(50)");
 
                     b.Property<decimal>("TotalAmount")
-                        .HasColumnType("decimal(18, 3)");
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("UserName")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("OrderId");
 
-                    b.HasIndex("CustomerId");
+                    b.HasIndex("UserId");
 
                     b.ToTable("Orders");
                 });
@@ -184,6 +191,9 @@ namespace Quan_ly_ban_hang.Migrations
                     b.Property<Guid>("OrderDetailId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("OrderCode")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<Guid>("OrderId")
                         .HasColumnType("uniqueidentifier");
@@ -195,7 +205,10 @@ namespace Quan_ly_ban_hang.Migrations
                         .HasColumnType("int");
 
                     b.Property<decimal>("UnitPrice")
-                        .HasColumnType("decimal(18, 3)");
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("UserName")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("OrderDetailId");
 
@@ -213,7 +226,7 @@ namespace Quan_ly_ban_hang.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<decimal>("Amount")
-                        .HasColumnType("decimal(18, 3)");
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<Guid>("OrderId")
                         .HasColumnType("uniqueidentifier");
@@ -244,12 +257,10 @@ namespace Quan_ly_ban_hang.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasMaxLength(2500)
                         .HasColumnType("nvarchar(2500)");
 
                     b.Property<string>("Image")
-                        .IsRequired()
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
@@ -259,7 +270,7 @@ namespace Quan_ly_ban_hang.Migrations
                         .HasColumnType("nvarchar(100)");
 
                     b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18, 3)");
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("Stock")
                         .HasColumnType("int");
@@ -308,7 +319,6 @@ namespace Quan_ly_ban_hang.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("ImageUrl")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<Guid>("ProductId")
@@ -330,9 +340,6 @@ namespace Quan_ly_ban_hang.Migrations
                     b.Property<string>("Comment")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid>("CustomerId")
-                        .HasColumnType("uniqueidentifier");
-
                     b.Property<Guid>("ProductId")
                         .HasColumnType("uniqueidentifier");
 
@@ -342,11 +349,14 @@ namespace Quan_ly_ban_hang.Migrations
                     b.Property<DateTime>("ReviewDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.HasKey("ReviewId");
 
-                    b.HasIndex("CustomerId");
-
                     b.HasIndex("ProductId");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Reviews");
                 });
@@ -376,12 +386,12 @@ namespace Quan_ly_ban_hang.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<Guid>("CustomerId")
+                    b.Property<Guid>("UserId")
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("CartId");
 
-                    b.HasIndex("CustomerId")
+                    b.HasIndex("UserId")
                         .IsUnique();
 
                     b.ToTable("ShoppingCarts");
@@ -428,17 +438,15 @@ namespace Quan_ly_ban_hang.Migrations
 
             modelBuilder.Entity("Quan_ly_ban_hang.Models.CartItem", b =>
                 {
-                    b.HasOne("Quan_ly_ban_hang.Models.ShoppingCart", "Shopping_Cart")
-                        .WithMany("CartItems")
-                        .HasForeignKey("CartId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("Quan_ly_ban_hang.Models.Product", "Product")
                         .WithMany("CartItems")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.HasOne("Quan_ly_ban_hang.Models.ShoppingCart", "Shopping_Cart")
+                        .WithMany("CartItems")
+                        .HasForeignKey("Shopping_CartCartId");
 
                     b.Navigation("Product");
 
@@ -458,13 +466,13 @@ namespace Quan_ly_ban_hang.Migrations
 
             modelBuilder.Entity("Quan_ly_ban_hang.Models.Order", b =>
                 {
-                    b.HasOne("Quan_ly_ban_hang.Models.Customer", "Customer")
+                    b.HasOne("Quan_ly_ban_hang.Models.User", "User")
                         .WithMany("Order")
-                        .HasForeignKey("CustomerId")
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Customer");
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Quan_ly_ban_hang.Models.OrderDetail", b =>
@@ -557,32 +565,32 @@ namespace Quan_ly_ban_hang.Migrations
 
             modelBuilder.Entity("Quan_ly_ban_hang.Models.Review", b =>
                 {
-                    b.HasOne("Quan_ly_ban_hang.Models.Customer", "Customer")
-                        .WithMany("Reviews")
-                        .HasForeignKey("CustomerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("Quan_ly_ban_hang.Models.Product", "Product")
                         .WithMany("Reviews")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Customer");
+                    b.HasOne("Quan_ly_ban_hang.Models.User", "User")
+                        .WithMany("Reviews")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Product");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Quan_ly_ban_hang.Models.ShoppingCart", b =>
                 {
-                    b.HasOne("Quan_ly_ban_hang.Models.Customer", "Customer")
+                    b.HasOne("Quan_ly_ban_hang.Models.User", "User")
                         .WithOne("ShoppingCart")
-                        .HasForeignKey("Quan_ly_ban_hang.Models.ShoppingCart", "CustomerId")
+                        .HasForeignKey("Quan_ly_ban_hang.Models.ShoppingCart", "UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Customer");
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Quan_ly_ban_hang.Models.User", b =>
@@ -606,15 +614,6 @@ namespace Quan_ly_ban_hang.Migrations
                     b.Navigation("ProductCategories");
                 });
 
-            modelBuilder.Entity("Quan_ly_ban_hang.Models.Customer", b =>
-                {
-                    b.Navigation("Order");
-
-                    b.Navigation("Reviews");
-
-                    b.Navigation("ShoppingCart");
-                });
-
             modelBuilder.Entity("Quan_ly_ban_hang.Models.Discount", b =>
                 {
                     b.Navigation("ProductDiscounts");
@@ -624,8 +623,7 @@ namespace Quan_ly_ban_hang.Migrations
                 {
                     b.Navigation("OrderDetails");
 
-                    b.Navigation("Payment")
-                        .IsRequired();
+                    b.Navigation("Payment");
                 });
 
             modelBuilder.Entity("Quan_ly_ban_hang.Models.Product", b =>
@@ -655,8 +653,13 @@ namespace Quan_ly_ban_hang.Migrations
 
             modelBuilder.Entity("Quan_ly_ban_hang.Models.User", b =>
                 {
-                    b.Navigation("Customer")
-                        .IsRequired();
+                    b.Navigation("Customer");
+
+                    b.Navigation("Order");
+
+                    b.Navigation("Reviews");
+
+                    b.Navigation("ShoppingCart");
                 });
 #pragma warning restore 612, 618
         }

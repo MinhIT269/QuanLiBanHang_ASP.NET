@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Quan_ly_ban_hang.Request;
 using Quan_ly_ban_hang.Services;
+using System.Security.Claims;
 
 namespace Quan_ly_ban_hang.Controllers
 {
@@ -11,10 +12,13 @@ namespace Quan_ly_ban_hang.Controllers
     {
         private readonly ICartService _cartService;
         private readonly IHttpContextAccessor _httpContextAccessor;
-        public CartController(ICartService cartService, IHttpContextAccessor httpContextAccessor)
+		private readonly ISessionCartService _sessionCartService;
+		public CartController(ICartService cartService, IHttpContextAccessor httpContextAccessor, ISessionCartService sessionCartService)
         {
             _cartService = cartService;
             _httpContextAccessor = httpContextAccessor;
+            _sessionCartService = sessionCartService;
+            
         }
         private bool IsUserAuthenticated()
         {
@@ -34,8 +38,7 @@ namespace Quan_ly_ban_hang.Controllers
             }
             else
             {
-                var sessionCartService = new SessionCartService(_httpContextAccessor);
-                return Ok(sessionCartService.GetCartItems());
+                return Ok(_sessionCartService.GetCartItems());
             }
         }
 
@@ -49,13 +52,13 @@ namespace Quan_ly_ban_hang.Controllers
             }
             if (IsUserAuthenticated())
             {
-                _cartService.AddToCart(request.ProductId, request.Quantity, request.Name, request.Price, request.Image);
+				var userId = _cartService.GetUserId(); // Lấy userId từ Claims
+				_cartService.AddToCart(request.ProductId, request.Quantity, userId, request.Name, request.Price, request.Image);
                 return Ok("Product added to cart");
             }
             else
             {
-                var sessionCartService = new SessionCartService(_httpContextAccessor);
-                sessionCartService.AddToCart(request.ProductId,request.Quantity, request.Name, request.Price, request.Image);
+                _sessionCartService.AddToCart(request.ProductId, request.Stock, request.Quantity,request.Name, request.Price, request.Image);
                 return Ok("Product added to cart");
             }
         }
@@ -81,10 +84,9 @@ namespace Quan_ly_ban_hang.Controllers
 			}
             else
             {
-				var sessionCartService = new SessionCartService(_httpContextAccessor);
 				foreach (var request in requests)
 				{
-					sessionCartService.UpdateCartItem(request.ProductId, request.Quantity);
+					_sessionCartService.UpdateCartItem(request.ProductId, request.Quantity);
 				}
 				return Ok("Cart Updated.");
 			}
@@ -105,8 +107,8 @@ namespace Quan_ly_ban_hang.Controllers
             }
             else
             {
-                var sessionCartService = new SessionCartService(_httpContextAccessor);
-                sessionCartService.RemoveFromCart(productId);
+       
+                _sessionCartService.RemoveFromCart(productId);
                 return Ok("Product removed from cart.");
             }
         }
@@ -121,8 +123,8 @@ namespace Quan_ly_ban_hang.Controllers
             }
             else
             {
-                var sessionCartService = new SessionCartService(_httpContextAccessor);
-                var total = sessionCartService.GetCartTotal();
+                
+                var total = _sessionCartService.GetCartTotal();
                 return Ok(total);
             }
         }
@@ -137,9 +139,8 @@ namespace Quan_ly_ban_hang.Controllers
                 return Ok("Cart cleared.");
             }
             else
-            {
-                var sessionCartService = new SessionCartService(_httpContextAccessor);
-                sessionCartService.ClearCart();
+            {             
+                _sessionCartService.ClearCart();
                 return Ok("Cart cleared.");
             }
         }
@@ -168,11 +169,54 @@ namespace Quan_ly_ban_hang.Controllers
 			}
 			else
 			{
-				var sessionCartService = new SessionCartService(_httpContextAccessor);
-				itemCount = sessionCartService.GetCartItems().Count; // Tương tự cho giỏ hàng session
+				
+				itemCount = _sessionCartService.GetCartItems().Count; // Tương tự cho giỏ hàng session
 			}
 
 			return Ok(itemCount);
+		}
+
+		[HttpPost("MergeCartOnLogin")]
+		public async Task<IActionResult> MergeCartOnLogin()
+		{
+			if (!IsUserAuthenticated())
+			{
+				return BadRequest("User not authenticated.");
+			}
+
+			// Lấy giỏ hàng từ session
+			var sessionCartItems = _sessionCartService.GetCartItems();
+
+			if (sessionCartItems == null || !sessionCartItems.Any())
+			{
+				return Ok("No items in session cart to merge.");
+			}
+
+			// Lấy giỏ hàng từ database của người dùng đã đăng nhập
+			var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+			//var userCartItems = await _cartService.GetCartItemsByUserIdAsync(userId);
+
+			// Hợp nhất giỏ hàng
+/*			foreach (var sessionItem in sessionCartItems)
+			{
+				var existingItem = userCartItems.FirstOrDefault(uc => uc.ProductId == sessionItem.ProductId);
+
+				if (existingItem != null)
+				{
+					// Cập nhật số lượng sản phẩm đã tồn tại trong giỏ của người dùng
+					await _cartService.UpdateCartItem(existingItem.ProductId, existingItem.Quantity + sessionItem.Quantity);
+				}
+				else
+				{
+					// Thêm sản phẩm mới từ session vào giỏ của người dùng
+					await _cartService.AddToCart(sessionItem.ProductId, sessionItem.Quantity, sessionItem.Name, sessionItem.Price, sessionItem.Image);
+				}
+			}*/
+
+			// Xóa giỏ hàng trong session
+			_sessionCartService.ClearCart();
+
+			return Ok("Cart merged successfully after login.");
 		}
 	}
 }

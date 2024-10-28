@@ -8,7 +8,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options =>
+{
+	options.LoginPath = "/Home/Login"; // Chỉ định trang đăng nhập mới
+});
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddDistributedMemoryCache(); // Đăng kí dịch vụ lưu cache trong bộ nhớ(Session sẽ sử dụng nó)
 builder.Services.AddSession(options =>   // Đăng ký dịch vụ Session
@@ -28,8 +31,9 @@ builder.Services.AddScoped<IAccountService, AccountService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IBrandService, BrandService>();
+builder.Services.AddScoped<ISessionCartService, SessionCartService>();
 builder.Services.AddScoped<ICartService, CartService>();
-builder.Services.AddScoped<ICartService, SessionCartService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

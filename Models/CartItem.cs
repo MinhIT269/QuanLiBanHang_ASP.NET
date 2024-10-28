@@ -15,7 +15,7 @@ namespace Quan_ly_ban_hang.Models
         [Required, Range(1, int.MaxValue)]
         public int Quantity { get; set; }
 
-        public ShoppingCart ?Shopping_Cart { get; set; }
-        public Product ?Product { get; set; }
+        public ShoppingCart? Shopping_Cart { get; set; }
+        public Product? Product { get; set; }
     }
 }

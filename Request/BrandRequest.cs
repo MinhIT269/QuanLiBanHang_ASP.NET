@@ -6,7 +6,7 @@ namespace Quan_ly_ban_hang.Request
     {
         public Guid BrandId { get; set; }
 
-        public string Name { get; set; }
+        public string? Name { get; set; }
         public string Description { get; set; }
 
     }

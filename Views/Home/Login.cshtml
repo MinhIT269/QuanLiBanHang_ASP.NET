@@ -43,7 +43,7 @@
 								</div>
 								<p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign in</p>
 								<div class="mb-5">
-									<form method="post" action="/home/login" class="authentication-form">
+									<form method="post" action="@Url.Action("login", "home")" class="authentication-form">
 										<div class="mb-3">
 											<input type="email" id="example-email" name="UserNameorEmail" class="form-control bg-" placeholder="Enter your email or username" required>
 										</div>
@@ -52,7 +52,7 @@
 										</div>
 										<div class="mb-1 text-center d-grid">
 											<button class="btn btn-soft-primary mb-2" type="submit">Sign In</button>
-											<a href="Home/Registration" class="float-end text-dark fw-bold ms-1">Reset Password</a>
+											<a href="@Url.Action("registration", "home")" class="float-end text-dark fw-bold ms-1">Reset Password</a>
 										</div>
 									</form>
 									<p class="mt-1 fw-semibold no-span">OR sign with</p>
@@ -61,7 +61,7 @@
 										<a href="javascript:void(0);" class="btn btn-soft-primary"><i class="bx bxl-facebook fs-20 me-1"></i> Sign in with Facebook</a>
 									</div>
 								</div>
-								<p class="text-danger text-center">Don't have an account? <a href="/Home/Registration" class="text-dark fw-bold ms-1">Sign Up</a></p>
+								<p class="text-danger text-center">Don't have an account? <a href="@Url.Action("registration", "home")" class="text-dark fw-bold ms-1">Sign Up</a></p>
 							</div>
 						</div>
 					</div>
